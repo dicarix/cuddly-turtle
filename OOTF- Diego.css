@@ -109,12 +109,12 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .author_byText{
 	position: absolute;
-	top: 137.3%;
+	top: 870px;
 	left: 20%;
 }
 .author_dateText{
 	position: absolute;
-	top: 143%;
+	top: 900px;
 	left: 20%;
 }
 .hp-custom-article-posted {
@@ -126,6 +126,11 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	top: -15px;
 	position: relative;
 }
+.main_text{
+	font-size: 48px;
+	color: #fff;
+	position: absolute;
+	top: 538px;
+	left: 482px;
 }
-
 /*End Body changes*/
