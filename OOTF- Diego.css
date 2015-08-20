@@ -108,17 +108,20 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .author_byText{
 	position: absolute;
-    top: 177.3%;
-    left: 20%;
+	top: 137.3%%;
+	left: 20%;
 }
 .author_dateText{
-    position: absolute;
-    top: 181%;
-    left: 20%;
+	position: absolute;
+	top: 143%;
+	left: 20%;
 }
 .hp-custom-article-posted {
-    display: none;
+	display: none;
 }
-
+.lia-user-name{
+	margin-top: 15px;
+	margin-left: -70px;
+}
 
 /*End Body changes*/
