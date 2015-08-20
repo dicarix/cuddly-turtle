@@ -1,0 +1,119 @@
+/*Diegoac changes */
+/* header */
+/*Putting the main container with a width bigger than the container*/
+.lia-quilt.lia-quilt-officeofthe-future-header.lia-quilt-layout-headerhpex.lia-component-quilt-officeofthe-future-header {
+	width: 100vw;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
+	background-color: #fff;
+}
+
+.lia-quilt-row.lia-quilt-row-nav{
+	width: 100vw;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
+	background-color: #e6e6e6;
+}
+.lia-quilt-row-hpnav {
+	width: 964px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#hp-nav-menu {
+	width: 964px;
+	height: 66px;
+	margin: 0 auto;
+}
+
+#lia-body.BlogArticlePage .lia-content #hp-nav-menu ul.hp-top-nav {
+	width: 600px;
+	background-color: #e6e6e6;
+}
+#lia-body .lia-content .lia-quilt-column-24{
+	background-color: #e6e6e6;	
+}
+/* end Header */
+
+/*Body changes */
+#lia-body .lia-content .lia-quilt-column .lia-quilt-column-alley{
+	text-align: center;
+}
+.logoHP{
+	width: 37px;
+	height: 37px;
+}
+.logo_firstText{
+	font-size: 14px;
+}
+.logo_secondText{
+	font-size: 24px;
+	color: #0096D6;
+}
+.lia-quilt-row.lia-quilt-row-row_3 {
+	border-top: 7px solid #0096D6;
+}
+#lia-body .lia-content .lia-quilt-column .lia-quilt-column-alley .hp-custom-desktop-article-image{
+	padding: 0;
+}
+#lia-body .lia-content .lia-user-avatar-message {
+	max-width: 37px;
+	max-height: 37px;
+	border-radius: 50%;
+}
+li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-link.hp-overview-nav-menu{
+	display:none;
+}
+.lia-quilt-row.lia-quilt-row-row_4{
+	/*margin: 65px 40px 40px 70px;*/
+}
+.lia-quilt-row.lia-quilt-row-row_2{
+	background-color: #fff;
+}
+#lia-body .lia-content .lia-user-info-group .lia-user-avatar {
+	float: right;
+}
+.lia-quilt-column-OfficeoftheFutureLogo{
+	width: 100%!important;
+}
+.lia-quilt-column-PostedBy{
+	width: 18.4647%!important;
+}
+.lia-mark-empty { 
+	width:	20.4647%!important;
+}
+.lia-quilt-column-Teaser,.lia-quilt-column-Headline{
+	width: 56.2655%!important;
+}
+.lia-quilt-column-Teaser p{
+	font-size:24px;
+	color:#a3a3a3;
+}
+.lia-quilt-column-Share{
+	width:25.2698%!important;
+	min-height: 159px;
+}
+.lia-quilt-column-Share,.lia-quilt-column-Teaser{
+	border-bottom:2px solid #f2f2f2;
+}
+.sub-nav-title-wrapper{
+	text-align: left;
+}
+#hp-nav-menu .topics-header-nav-menu .hp-sub-nav .hp-nav-col {
+	margin-left: -15px;
+}
+.hpbusiness-logo{
+	text-align: left;
+}
+.node-description-text{
+	width: 600px;
+}
+.author_byText{
+	position: absolute;
+    top: 177.3%;
+    left: 20%;
+}
+.author_dateText{
+    position: absolute;
+    top: 181%;
+    left: 20%;
+}
+/*End Body changes*/
