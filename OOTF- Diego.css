@@ -58,6 +58,7 @@
 	max-width: 37px;
 	max-height: 37px;
 	border-radius: 50%;
+	margin-right: 30px;
 }
 li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-link.hp-overview-nav-menu{
 	display:none;
@@ -108,7 +109,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .author_byText{
 	position: absolute;
-	top: 137.3%%;
+	top: 137.3%;
 	left: 20%;
 }
 .author_dateText{
@@ -120,8 +121,11 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	display: none;
 }
 .lia-user-name{
-	margin-top: 15px;
-	margin-left: -70px;
+	margin-left: -56px;
+	clear: both;
+	top: -15px;
+	position: relative;
+}
 }
 
 /*End Body changes*/
