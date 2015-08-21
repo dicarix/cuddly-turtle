@@ -164,5 +164,6 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .lia-quilt-column-alley.lia-quilt-column-alley-single ul{
 	display: inline-flex;
+	display: -webkit-inline-flex;
 }
 /*End Body changes*/
