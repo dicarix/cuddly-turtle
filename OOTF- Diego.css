@@ -149,7 +149,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .content_img_1{
 	float: left;
-	margin: 0 10px 10px -200px;
+    margin: 0px 10px 10px -200px;
+    width: 350px;
 }
 .lia-message-body-content p {
 	text-align: justify;
@@ -160,10 +161,13 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	height: 218px;
 }
 .lia-quilt-column-alley.lia-quilt-column-alley-single h2 {
-    text-align: left;
+	text-align: left;
 }
 .lia-quilt-column-alley.lia-quilt-column-alley-single ul{
 	display: inline-flex;
 	display: -webkit-inline-flex;
+}
+.paragraph {
+    padding-bottom: 60px;
 }
 /*End Body changes*/
