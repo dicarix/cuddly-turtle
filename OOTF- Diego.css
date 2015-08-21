@@ -28,9 +28,6 @@
 	width: 600px;
 	background-color: #e6e6e6;
 }
-#lia-body .lia-content .lia-quilt-column-24{
-	background-color: #e6e6e6;	
-}
 /* end Header */
 
 /*Body changes */
@@ -66,7 +63,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .lia-quilt-row.lia-quilt-row-row_4{
 	padding: 65px 40px 40px 70px;
 }
-.lia-quilt-row.lia-quilt-row-row_2,.lia-quilt-row.lia-quilt-row-row_4{
+.lia-quilt-row-row_2,.lia-quilt-row-row_4,.lia-quilt-row-row_5,.lia-quilt-row-row_7{
 	background-color: #fff;
 }
 #lia-body .lia-content .lia-user-info-group .lia-user-avatar {
@@ -77,6 +74,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .lia-quilt-column-PostedBy{
 	width: 18.4647%!important;
+	position: relative;
 }
 .lia-mark-empty { 
 	width:	20.4647%!important;
@@ -109,13 +107,13 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .author_byText{
 	position: absolute;
-	top: 870px;
-	left: 20%;
+	top: 0;
+	left: -20px;
 }
 .author_dateText{
 	position: absolute;
-	top: 900px;
-	left: 20%;
+	top: 30px;
+	left: -20px;
 }
 .hp-custom-article-posted {
 	display: none;
@@ -126,11 +124,45 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	top: -15px;
 	position: relative;
 }
-.main_text{
+.hero_text{
 	font-size: 48px;
 	color: #fff;
 	position: absolute;
-	top: 538px;
+	top: 578px;
 	left: 482px;
+}
+.hero_button{
+	font-size: 23px;
+	color: #fff;
+	position: absolute;
+	top: 635px;
+	left: 482px;
+	border: 2px solid #fff;
+	padding: 10px;
+}
+.hp-custom-article-secondary-details{
+	display: none;
+}
+.lia-message-body-content{
+	width: 56.2655%!important;
+	margin-left: 20.4647%!important;
+}
+.content_img_1{
+	float: left;
+	margin: 0 10px 10px -200px;
+}
+.lia-message-body-content p {
+	text-align: justify;
+}
+.author_avatar{
+	border-radius: 50%;
+	width: 218px;
+	height: 218px;
+}
+.lia-quilt-column-alley.lia-quilt-column-alley-single h2 {
+    text-align: left;
+}
+.lia-quilt-column-alley.lia-quilt-column-alley-single ul{
+	display: inline-flex;
 }
 /*End Body changes*/
