@@ -149,8 +149,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .content_img_1{
 	float: left;
-    margin: 0px 10px 10px -200px;
-    width: 350px;
+	margin: 0px 10px 10px -200px;
+	width: 350px;
 }
 .lia-message-body-content p {
 	text-align: justify;
@@ -168,6 +168,32 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	display: -webkit-inline-flex;
 }
 .paragraph {
-    padding-bottom: 60px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+.paragraph h2{
+	font-family: "HPSimplified-W15", "HPSimplified", arial,sans-serif!important;
+	font-size: 25px!important;
+	font-weight: 100!important;
+}
+.author_container > div{
+	width: 50%;
+	float: left;
+}
+.author_container .quote_wrapper .quote {
+	font-size: 24px;
+	padding-bottom: 10px!important;
+}
+.quote_wrapper {
+	margin-top: 17%;
+}
+.author_container .quote_wrapper .author,.author_container .quote_wrapper .position{
+	font-size: 16px;
+}
+.author_container .quote_wrapper .author{
+	color: #0096D6;
+}
+.author_container .quote_wrapper .position{
+	color: #a8a8a8;
 }
 /*End Body changes*/
