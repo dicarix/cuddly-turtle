@@ -211,6 +211,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	background-color: transparent;
 	top: -724px;
 	left: -40%;
+	display: inline;
 }
 .blog-article-image img{
 	width: 100%;
