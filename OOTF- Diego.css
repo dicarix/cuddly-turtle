@@ -99,11 +99,14 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 #hp-nav-menu .topics-header-nav-menu .hp-sub-nav .hp-nav-col {
 	margin-left: -15px;
 }
-.hpbusiness-logo{
+.hpbusiness-logo {
 	text-align: left;
+	margin-left: -9px;
 }
 .node-description-text{
 	width: 600px;
+	text-align: left;
+	margin-left: -9px;
 }
 .author_byText{
 	position: absolute;
@@ -208,5 +211,13 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	background-color: transparent;
 	top: -724px;
 	left: -40%;
+}
+.blog-article-image img{
+	width: 100%;
+	max-height: 377px;
+}
+#lia-body.BlogArticlePage .lia-content .lia-breadcrumb {
+	text-align: left;
+	padding-left: 9px;
 }
 /*End Body changes*/
