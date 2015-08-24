@@ -164,7 +164,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .image_container p#content_img_1_text{
 	display: inline;
 	float: right;
-	margin-right: -180px;
+	margin-right: -180px!important;
 	width: 166px;
 	color: #757575;
 	font-size: 14px;
