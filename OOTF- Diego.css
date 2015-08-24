@@ -248,7 +248,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .aside_image_container p{
 	font-size: 14px;
-	padding: 8px 0 0 19px;
+	padding: 8px 0 0 19px!important;
 }  
 .aside_image_container img {
 	width: 100%;
