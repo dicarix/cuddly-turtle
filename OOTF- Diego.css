@@ -238,4 +238,19 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .image_container {
 	padding-top: 53px;
 }
+.aside_image_container {
+	width: 220px;
+	height: 165px;
+	background-color: #e6e6e6;
+	float: right;
+	left: 208px;
+	position: relative;
+}
+.aside_image_container p{
+	padding: 8px 0 0 19px;
+}  
+.aside_image_container img {
+	width: 100%;
+	max-height: 100px;
+}
 /*End Body changes*/
