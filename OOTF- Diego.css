@@ -127,18 +127,23 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .hero_text{
 	font-size: 48px;
 	color: #fff;
-	position: absolute;
-	top: 578px;
-	left: 482px;
+	position: relative;
+	left: 8.1%;
+	top: 151px;
+	display: inline;
 }
 .hero_button{
+	left: -42.4%;
+	top: 207px;
 	font-size: 23px;
 	color: #fff;
-	position: absolute;
-	top: 635px;
-	left: 482px;
 	border: 2px solid #fff;
-	padding: 10px;
+	padding: 10px!important;
+	position: relative;
+	display: inline;
+}
+.hero_button a{
+	color:#fff!important;
 }
 .hp-custom-article-secondary-details{
 	display: none;
@@ -195,5 +200,13 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .author_container .quote_wrapper .position{
 	color: #a8a8a8;
+}
+.hero_container{
+	width: 964px;
+	height: 379px;
+	position: relative;
+	background-color: transparent;
+	top: -724px;
+	left: -40%;
 }
 /*End Body changes*/
