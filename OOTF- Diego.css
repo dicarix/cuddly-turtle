@@ -157,8 +157,18 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .content_img_1{
 	float: left;
-	margin: 0px 10px 10px -200px;
-	width: 350px;
+	margin: 0px 0px 0px -164px;
+	min-width: 670px;
+	min-height: 390px;
+}
+.image_container p#content_img_1_text{
+	display: inline;
+	float: right;
+	margin-right: -180px;
+	width: 166px;
+	color: #757575;
+	font-size: 14px;
+	line-height: 20px!important;
 }
 .lia-message-body-content p {
 	text-align: justify;
@@ -220,5 +230,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 #lia-body.BlogArticlePage .lia-content .lia-breadcrumb {
 	text-align: left;
 	padding-left: 9px;
+}
+.image_container {
+	padding-top: 53px;
 }
 /*End Body changes*/
