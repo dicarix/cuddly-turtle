@@ -1,0 +1,56 @@
+.header-nav-link.hp-overview-nav-menu{
+	display:none;
+}
+.hero_text{
+	font-size: 48px;
+	color: #fff;
+	position: absolute;
+	top: 457px;
+	left: 482px;
+}
+.hero_button{
+	font-size: 23px;
+	color: #fff;
+	position: absolute;
+	top: 535px;
+	left: 482px;
+	border: 2px solid #fff;
+	padding: 10px!important;
+}
+.paragraph h2{
+	font-family: "HPSimplified-W15", "HPSimplified", arial,sans-serif!important;
+	font-size: 25px!important;
+	font-weight: 100!important;
+}
+
+.content_img_1{
+	float: left;
+	margin: 0px 10px 10px -200px;
+	width: 50%;
+}
+
+.author_container > div{
+	width: 28%;
+	float: left;
+}
+.author_container .quote_wrapper .quote {
+	font-size: 24px;
+	padding-bottom: 10px!important;
+}
+.quote_wrapper {
+	margin-top: 4%;
+}
+.author_container .quote_wrapper .author,.author_container .quote_wrapper .position{
+	font-size: 16px;
+}
+.author_container .quote_wrapper .author{
+	color: #0096D6;
+}
+.author_container .quote_wrapper .position{
+	color: #a8a8a8;
+}
+.author_avatar{
+	border-radius: 50%;
+	width: 218px;
+	height: 218px;
+}
