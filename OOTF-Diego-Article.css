@@ -45,9 +45,6 @@
 	font-size: 24px;
 	color: #0096D6;
 }
-.lia-quilt-row.lia-quilt-row-row_3 {
-	border-top: 7px solid #0096D6;
-}
 #lia-body .lia-content .lia-quilt-column .lia-quilt-column-alley .hp-custom-desktop-article-image{
 	padding: 0;
 }
@@ -231,6 +228,9 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	top: -724px;
 	left: -40%;
 	display: inline;
+}
+.blog-article-image{
+	border-top: 7px solid #0096D6; 
 }
 .blog-article-image img{
 	width: 100%;
