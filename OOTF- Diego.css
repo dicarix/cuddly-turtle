@@ -51,11 +51,11 @@
 #lia-body .lia-content .lia-quilt-column .lia-quilt-column-alley .hp-custom-desktop-article-image{
 	padding: 0;
 }
-#lia-body .lia-content .lia-user-avatar-message {
+.lia-quilt-column-alley.lia-quilt-column-alley-left img{
 	max-width: 37px;
 	max-height: 37px;
 	border-radius: 50%;
-	margin-right: 30px;
+	margin-left: 30px;
 }
 li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-link.hp-overview-nav-menu{
 	display:none;
@@ -113,9 +113,14 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	top: 0;
 	left: -20px;
 }
+.author_name{
+	position: absolute;
+	top: 17px;
+	left: -20px;
+}
 .author_dateText{
 	position: absolute;
-	top: 30px;
+	top: 35px;
 	left: -20px;
 }
 .hp-custom-article-posted {
