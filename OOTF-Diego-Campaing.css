@@ -47,8 +47,43 @@
 	left: 0;
 }
 .hero_container.campaign .logoHP {
-    margin-left: 25%;
+	margin-left: 25%;
 }
 .lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-HeroImage {
-    height: 528px;
+	height: 528px;
+}
+#lia-body .lia-content p#teaser {
+	font-size: 28px;
+	color: #a3a3a3;
+	width: 806px;
+	margin: 0 auto!important;
+	line-height: 32px!important;
+	padding: 80px 0 95px!important;
+}
+.lia-quilt-column-LeftArticle .lia-quilt-column-alley.lia-quilt-column-alley-left, .lia-quilt-column-RightArticle .lia-quilt-column-alley.lia-quilt-column-alley-right, .blue-border{
+	border-top: 7px solid #0096D6;
+}
+#lia-body .lia-content p.header_text{
+	font-size: 24px;
+}
+#lia-body .lia-content p.teaser {
+	font-size: 18px;
+	color: #666666;
+}
+.lia-quilt-column.lia-quilt-column-12.lia-quilt-column-left.lia-quilt-column-LeftArticle, .lia-quilt-column-RightArticle {
+	margin-bottom: 60px;
+	background-color: transparent;
+}
+#lia-body .lia-content p.header_text, #lia-body .lia-content p.teaser {
+    text-align: left;
+    margin-left: 35px;
+}
+#lia-body .lia-content p.header_text{
+	margin-top: 35px;
+}
+.blue-border img{
+	width: 100%;
+}
+.image_footer{
+	text-align: left;
 }
