@@ -1,11 +1,54 @@
 #hp-nav-menu ul.hp-top-nav{
 	background-color: #e6e6e6;
 }
-.full_width {
-    width: 100vw;
-    margin-left: calc(-1 * ((100vw - 100%) / 2));
+.full_width,.hero_container.campaign{
+	width: 100vw;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
 }
 .full_width img{
 	width: 100%;
 	height: 524px;
+}
+.addthis_toolbox.addthis_default_style{
+	position: relative;
+}
+
+#lia-body .lia-content .addthis_default_style a{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	height: 27px;
+	background-color: #fff;
+	background-position-y: 10px;
+	background-position: 10px;
+	width: 60px;
+}
+#lia-body .lia-content .lia-quilt-column-24{
+	margin-bottom: 0;
+}
+.hero_container.campaign{
+	left: 0;
+	top: -447px;
+	color: white;
+}
+.hero_container.campaign .hero_text {
+	left: 0;
+	top: 30px;
+}
+.hero_container.campaign .hero_subheader {
+	font-size: 36px;
+	color: #fff;
+	position: relative;
+	left: 0;
+	top: 20px;
+}
+.hero_container.campaign .hero_button{
+	top: 60px;
+	left: 0;
+}
+.hero_container.campaign .logoHP {
+    margin-left: 25%;
+}
+.lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-HeroImage {
+    height: 528px;
 }
