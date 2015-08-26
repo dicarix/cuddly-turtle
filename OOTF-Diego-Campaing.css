@@ -126,6 +126,30 @@
 	font-size: 30px;
 }
 .cc7_image {
-	width: 33%;
+	width: 308px;
 	display: inline-block;
+
+}
+.cc7_image img{
+	width: 100%;
+}
+.cc7_text_wrapper{
+	background-color: #fff;
+}
+.cc7_text_wrapper p{
+	text-align: left;
+	color:#666666;
+	font-size:18px;	
+}
+.cc7_text_wrapper p.cc7_title{
+	color: #000;
+	font-size: 24px;
+}
+
+.custom_component_7 .cc7_image {
+    margin-right: 17px;
+}
+
+.custom_component_7 .cc7_image:last-child {
+    margin-right: 0;
 }
