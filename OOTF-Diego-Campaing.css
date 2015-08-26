@@ -33,7 +33,8 @@
 }
 .hero_container.campaign .hero_text {
 	left: 0;
-	top: 30px;
+	top: 70px;
+	display: block;
 }
 .hero_container.campaign .hero_subheader {
 	font-size: 36px;
@@ -99,6 +100,7 @@
 	position: absolute;
 	top: 163px;
 	text-align: left;
+	margin-left: 58px;
 }
 #lia-body .lia-content p.cc6_quote {
 	font-size: 48px;
@@ -108,10 +110,10 @@
 	margin-bottom: 18px;
 }
 #lia-body .lia-content p.cc6_author {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 2px;
 }
 #lia-body .lia-content p.cc6_position {
-    font-size: 18px;
+	font-size: 18px;
 }
