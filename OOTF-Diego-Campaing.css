@@ -190,13 +190,16 @@ img.pioneer_avatar{
 	font-size: 18px;
 	width: 140px;
 }
-li.pioneer {
-	width: 15.384615385%;
-	margin-right: 9px!important;
-	display: inline-block;
+#lia-body .lia-content li.pioneer {
+    width: 15.384615385%;
+    margin-right: 9px!important;
+    display: inline-block;
+    padding-bottom: 48px;
 }
-ul#business_pioneers{
+#lia-body .lia-content ul#business_pioneers{
     width: 910px;
     display: inline-block;
     margin: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
