@@ -75,8 +75,8 @@
 	background-color: transparent;
 }
 #lia-body .lia-content p.header_text, #lia-body .lia-content p.teaser {
-    text-align: left;
-    margin-left: 35px;
+	text-align: left;
+	margin-left: 35px;
 }
 #lia-body .lia-content p.header_text{
 	margin-top: 35px;
@@ -86,4 +86,15 @@
 }
 .image_footer{
 	text-align: left;
+}
+.custom_component_6{
+	position: relative;
+}
+.full_width.cc6_image{
+	padding-top: 60px;
+	background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;
+}
+.cc6_text{
+	position: absolute;
+	top: 174px;
 }
