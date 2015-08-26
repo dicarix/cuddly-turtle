@@ -117,3 +117,15 @@
 #lia-body .lia-content p.cc6_position {
 	font-size: 18px;
 }
+.custom_component_7{
+	background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;	
+}
+.cc7_header p{
+	text-align: left;
+	margin-left: 35px;
+	font-size: 30px;
+}
+.cc7_image {
+	width: 33%;
+	display: inline-block;
+}
