@@ -159,3 +159,19 @@
 .custom_component_7 .cc7_image:last-child {
 	margin-right: 0;
 }
+
+.custom_component_8{
+	background-color: #fff;
+}
+.pioneer_text{
+	padding-top: 76px;
+}
+.pioneer_header{
+	font-size:30px;
+	color:#000;
+}
+#lia-body .lia-content p.pioneer_subheader{
+	font-size:18px;
+	width: 456px;
+	margin: 0 auto;
+}
