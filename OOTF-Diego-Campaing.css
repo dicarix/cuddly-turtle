@@ -81,7 +81,7 @@
 #lia-body .lia-content p.header_text{
 	margin-top: 35px;
 }
-.blue-border img{
+.blue-border img,.cc_image img{
 	width: 100%;
 }
 .image_footer{
