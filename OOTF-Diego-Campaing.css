@@ -89,6 +89,7 @@
 }
 .custom_component_6{
 	position: relative;
+	color: #fff;
 }
 .full_width.cc6_image{
 	padding-top: 60px;
@@ -96,5 +97,21 @@
 }
 .cc6_text{
 	position: absolute;
-	top: 174px;
+	top: 163px;
+	text-align: left;
+}
+#lia-body .lia-content p.cc6_quote {
+	font-size: 48px;
+	width: 590px;
+	line-height: 62px!important;
+	text-align: left;
+	margin-bottom: 18px;
+}
+#lia-body .lia-content p.cc6_author {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+#lia-body .lia-content p.cc6_position {
+    font-size: 18px;
 }
