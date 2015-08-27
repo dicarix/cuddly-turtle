@@ -260,4 +260,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	width: 100%;
 	max-height: 100px;
 }
+.lia-breadcrumb {
+    text-align: left!important;
+}
 /*End Body changes*/
