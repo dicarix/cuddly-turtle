@@ -92,9 +92,18 @@
 	position: relative;
 	color: #fff;
 }
+.full_width{
+	background-size: cover;
+	background-position-x: 25%;
+}
 .full_width.cc6_image{
+	background-image: url("http://h30657-staging.external.hp.com/t5/image/serverpage/image-id/103i9F585020176CEA2B/image-size/original?v=mpbl-1&px=-1");
+	height: 510px;
 	padding-top: 60px;
-	background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;
+}
+.full_width.hero_bg{  
+  background-image: url("http://h30657-staging.external.hp.com/t5/image/serverpage/image-id/102i22EDA8A34F090973/image-size/original?v=mpbl-1&px=-1");
+    height: 528px;
 }
 .cc6_text{
 	position: absolute;
@@ -191,15 +200,15 @@ img.pioneer_avatar{
 	width: 140px;
 }
 #lia-body .lia-content li.pioneer {
-    width: 15.384615385%;
-    margin-right: 9px!important;
-    display: inline-block;
-    padding-bottom: 48px;
+	width: 15.384615385%;
+	margin-right: 9px!important;
+	display: inline-block;
+	padding-bottom: 48px;
 }
 #lia-body .lia-content ul#business_pioneers{
-    width: 910px;
-    display: inline-block;
-    margin: auto;
-    padding-top: 60px;
-    padding-bottom: 20px;
+	width: 910px;
+	display: inline-block;
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 20px;
 }
