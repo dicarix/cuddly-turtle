@@ -242,6 +242,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	padding-left: 9px;
 }
 .image_container {
+	width: 450px;
 	padding-top: 53px;
 }
 .aside_image_container {
@@ -261,6 +262,6 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	max-height: 100px;
 }
 .lia-breadcrumb {
-    text-align: left!important;
+	text-align: left!important;
 }
 /*End Body changes*/
