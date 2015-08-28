@@ -266,3 +266,12 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	text-align: left!important;
 }
 /*End Body changes*/
+
+.related_header {
+	padding-top: 70px;
+	padding-left: 30px;
+	padding-bottom: 36px;
+}
+.related_header h2{
+font-size: 30px;
+}
