@@ -272,6 +272,6 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	padding-left: 30px;
 	padding-bottom: 36px;
 }
-.related_header h2{
-font-size: 30px;
+#lia-body .lia-content .related_header h2{
+	font-size: 30px;
 }
