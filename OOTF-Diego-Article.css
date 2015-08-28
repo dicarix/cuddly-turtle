@@ -275,3 +275,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 #lia-body .lia-content .related_header h2{
 	font-size: 30px;
 }
+.related_article{
+	background-color: #fff;
+	text-align: left;
+}
