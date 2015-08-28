@@ -164,7 +164,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	min-width: 670px;
 	min-height: 390px;
 }
-.image_container p#content_img_1_text{
+#lia-body .lia-content p.content_img_1_text{
 	display: inline;
 	float: right;
 	margin-right: -230px!important;
@@ -224,10 +224,10 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .hero_container{
 	width: 964px;
 	height: 379px;
-	position: relative;
+	position: absolute;
 	background-color: transparent;
-	top: -724px;
-	left: -40%;
+	top: 49%;
+	left: -5%;
 	display: inline;
 }
 .blog-article-image{
