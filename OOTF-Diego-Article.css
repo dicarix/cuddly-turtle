@@ -139,8 +139,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	font-weight: bold;
 }
 .hero_button{
-	left: 5.8%;
-	top: 207px;
+	right: 412px;
+	top: 234px;
 	font-size: 23px;
 	color: #fff;
 	border: 2px solid #fff;
@@ -222,13 +222,14 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	color: #a8a8a8;
 }
 .hero_container{
-	width: 964px;
-	height: 379px;
+	height: 375px;
 	position: absolute;
 	background-color: transparent;
-	top: 49%;
-	left: -5%;
+	top: 375px;
+	left: 0;
 	display: inline;
+	width: 100vw;
+	margin-left: calc(-1 * ((100vw - 100%) / 2));
 }
 .blog-article-image{
 	border-top: 7px solid #0096D6; 
