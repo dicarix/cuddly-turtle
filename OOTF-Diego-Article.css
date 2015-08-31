@@ -203,8 +203,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	font-weight: 100!important;
 }
 .paragraph > h2 {
-    margin-bottom: 10px!important;
-    display: block!important;
+	margin-bottom: 10px!important;
+	display: block!important;
 }
 .author_container > div{
 	width: 50%;
@@ -342,5 +342,6 @@ a.related_link {
 }
 .full_width_image{
 	width: 964px;
-    margin-left: -234px;
+	margin-left: -234px;
+	padding-bottom: 60px;
 }
