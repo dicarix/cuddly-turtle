@@ -195,11 +195,16 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .paragraph > p{
 	font-size: 18px!important;
+	margin-top: 10px!important;
 }
 .paragraph h2{
 	font-family: "HPSimplified-W15", "HPSimplified", arial,sans-serif!important;
 	font-size: 25px!important;
 	font-weight: 100!important;
+}
+.paragraph > h2 {
+    margin-bottom: 10px!important;
+    display: block!important;
 }
 .author_container > div{
 	width: 50%;
@@ -254,6 +259,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	float: right;
 	left: 208px;
 	position: relative;
+	margin-left: -150px;
 }
 .aside_image_container p{
 	font-size: 14px;
@@ -333,4 +339,8 @@ a.related_link {
 	margin-left: 22px;
 	margin-top: 22px;
 	padding-bottom: 30px;
+}
+.full_width_image{
+	width: 964px;
+    margin-left: -234px;
 }
