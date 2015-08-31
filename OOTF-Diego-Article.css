@@ -188,8 +188,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	display: inline-flex;
 	display: -webkit-inline-flex;
 }
-.paragraph {
-	padding-bottom: 60px;
+.paragraph p {
+	padding-bottom: 40px!important;
 	text-align: left;
 	width: 450px;
 }
@@ -343,5 +343,23 @@ a.related_link {
 .full_width_image{
 	width: 964px;
 	margin-left: -234px;
-	padding-bottom: 60px;
+}
+.full_width_image img {
+	width: 100%!important;
+	height: 100%!important;
+}
+#lia-body .lia-content p.full_width_txt{
+	display: inline-block;
+	width: 190px;
+	float: right;
+	position: relative;
+	bottom: -65px;
+	margin-right: 35px;
+	font-size: 14px;
+	color: #999999;
+}
+img.inline_image{
+	float: left;
+	margin-left: -185px;
+	margin-right: 20px;
 }
