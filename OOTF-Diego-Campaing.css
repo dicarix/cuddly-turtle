@@ -194,11 +194,13 @@ img.pioneer_avatar{
 	color: #0096D6;
 	font-size: 18px;
 	margin-bottom: 2px;
+	text-align: center;
 }
 #lia-body .lia-content p.pioneer_position {
 	color: #666666;
 	font-size: 18px;
 	width: 140px;
+	text-align: center;
 }
 #lia-body .lia-content li.pioneer {
 	width: 15.384615385%;
