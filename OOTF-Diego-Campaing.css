@@ -15,7 +15,7 @@
 
 #lia-body .lia-content .addthis_default_style a{
 	position: absolute;
-	top: 10px;
+	top: 24px;
 	right: 0px;
 	height: 27px;
 	background-color: #fff;
@@ -56,10 +56,11 @@
 #lia-body .lia-content p#teaser {
 	font-size: 28px;
 	color: #a3a3a3;
-	width: 806px;
+	width: 685px;
 	margin: 0 auto!important;
-	line-height: 32px!important;
+	line-height: 39px!important;
 	padding: 80px 0 95px!important;
+	text-align: center;
 }
 .lia-quilt-column-LeftArticle .lia-quilt-column-alley.lia-quilt-column-alley-left, .lia-quilt-column-RightArticle .lia-quilt-column-alley.lia-quilt-column-alley-right, .blue-border{
 	border-top: 7px solid #0096D6;
@@ -70,9 +71,14 @@
 #lia-body .lia-content p.teaser {
 	font-size: 18px;
 	color: #666666;
+	width: 409px;
+}
+#lia-body .lia-content p.teaser.cc5{
+	width: 620px;
+	padding-bottom: 15px;
 }
 .lia-quilt-column.lia-quilt-column-12.lia-quilt-column-left.lia-quilt-column-LeftArticle, .lia-quilt-column-RightArticle {
-	margin-bottom: 60px;
+	margin-bottom: 53px;
 	background-color: transparent;
 }
 #lia-body .lia-content p.header_text, #lia-body .lia-content p.teaser {
@@ -81,6 +87,7 @@
 }
 #lia-body .lia-content p.header_text{
 	margin-top: 35px;
+	margin-bottom: 11px;
 }
 .blue-border img,.cc_image img{
 	width: 100%;
@@ -91,6 +98,7 @@
 .custom_component_6{
 	position: relative;
 	color: #fff;
+	padding-bottom: 90px;
 }
 .full_width{
 	background-size: cover;
@@ -102,8 +110,8 @@
 	padding-top: 60px;
 }
 .full_width.hero_bg{  
-  background-image: url("http://h30657-staging.external.hp.com/t5/image/serverpage/image-id/102i22EDA8A34F090973/image-size/original?v=mpbl-1&px=-1");
-    height: 528px;
+	background-image: url("http://h30657-staging.external.hp.com/t5/image/serverpage/image-id/102i22EDA8A34F090973/image-size/original?v=mpbl-1&px=-1");
+	height: 528px;
 }
 .cc6_text{
 	position: absolute;
@@ -112,9 +120,9 @@
 	margin-left: 58px;
 }
 #lia-body .lia-content p.cc6_quote {
-	font-size: 48px;
+	font-size: 36px;
 	width: 590px;
-	line-height: 62px!important;
+	line-height: 50px!important;
 	text-align: left;
 	margin-bottom: 18px;
 }
@@ -128,6 +136,7 @@
 }
 .custom_component_7{
 	background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;	
+	padding-bottom: 100px;
 }
 .cc7_header p{
 	text-align: left;
@@ -141,6 +150,7 @@
 }
 .cc7_image img{
 	width: 100%;
+	display: inherit;
 }
 .cc7_text_wrapper{
 	background-color: #fff;
@@ -195,6 +205,7 @@ img.pioneer_avatar{
 	font-size: 18px;
 	margin-bottom: 2px;
 	text-align: center;
+	width: 140px;
 }
 #lia-body .lia-content p.pioneer_position {
 	color: #666666;
@@ -209,7 +220,7 @@ img.pioneer_avatar{
 	padding-bottom: 48px;
 }
 #lia-body .lia-content ul#business_pioneers{
-	width: 910px;
+	width: 855px;
 	display: inline-block;
 	margin: auto;
 	padding-top: 60px;
@@ -217,4 +228,28 @@ img.pioneer_avatar{
 }
 #lia-body .lia-content .lia-quilt-column-06.lia-quilt-column-SocialFooter{
 	width: 100%;
+}
+
+/*Feedback*/
+
+#lia-body .lia-content .lia-panel-standard{
+	background-color: transparent;
+}
+#lia-body .lia-content .lia-quilt-column-12{
+	width: 468px;
+}
+.lia-quilt-column-RightArticle{
+	margin-left: 28px;
+}
+.custom_component_3,.custom_component_4{
+	background-color: #fff;
+	padding-bottom: 18px;
+}
+
+.lia-quilt.lia-quilt-blog-article-page-officeofthe-fut.lia-quilt-layout-officeofthe-future-article-quil2.lia-top-quilt{
+	background-color: #fff;
+}
+.custom_component_5{
+	background-color: #fff;
+	padding-bottom: 60px;
 }
