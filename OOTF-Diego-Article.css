@@ -67,6 +67,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .lia-quilt-column-OfficeoftheFutureLogo{
 	width: 100%!important;
+	text-align: center;
 }
 .lia-quilt-column-PostedBy{
 	width: 18.4647%!important;
@@ -80,8 +81,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	width: 56.2655%!important;
 }
 .lia-quilt-column-Headline{
-    width: 56.2655%!important;
-    margin-left: 23.3%!important;
+	width: 56.2655%!important;
+	margin-left: 23.3%!important;
 }
 .lia-quilt-column-Teaser p{
 	font-size:24px;
@@ -239,6 +240,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	display: inline;
 	width: 100vw;
 	margin-left: calc(-1 * ((100vw - 100%) / 2));
+	text-align: center;
 }
 .blog-article-image{
 	border-top: 7px solid #0096D6; 
