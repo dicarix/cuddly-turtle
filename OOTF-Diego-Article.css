@@ -35,8 +35,7 @@
 	text-align: center;
 }
 .logoHP{
-	/*width: 37px;*/
-	/*height: 37px;*/
+	padding-bottom: 43px;
 }
 .logo_firstText{
 	font-size: 14px;
@@ -362,4 +361,19 @@ img.inline_image{
 	float: left;
 	margin-left: -185px;
 	margin-right: 20px;
+}
+
+/*Profile Section*/
+#lia-body .lia-content p.profile_name,#lia-body .lia-content p.profile_job,#lia-body .lia-content p.profile_link{
+	text-align: left;	
+}
+#lia-body .lia-content p.profile_name{
+	color: #000;
+	font-size: 36px;
+}
+#lia-body .lia-content p.profile_job{
+	font-size: 24px;
+}
+#lia-body .lia-content p.profile_link{
+	font-size: 18px;
 }
