@@ -65,7 +65,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 #lia-body .lia-content .lia-user-info-group .lia-user-avatar {
 	float: right;
 }
-.lia-quilt-column-OfficeoftheFutureLogo{
+.lia-quilt-column-OfficeoftheFutureLog{
 	width: 100%!important;
 	text-align: center;
 	background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;	
@@ -92,7 +92,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .lia-quilt-column-Share{
 	width:25.2698%!important;
-	min-height: 159px;
+	min-height: 184px;
 }
 .lia-quilt-column-Share,.lia-quilt-column-Teaser{
 	border-bottom:2px solid #f2f2f2;
@@ -180,9 +180,6 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	color: #757575;
 	font-size: 14px;
 	line-height: 20px!important;
-}
-.lia-message-body-content p {
-	text-align: justify;
 }
 .author_avatar{
 	border-radius: 50%;
@@ -401,4 +398,14 @@ img.inline_image{
 }
 #lia-body .lia-content ul#business_pioneers.profile {
 	width: 890px;
+}
+#lia-body .lia-content .lia-quilt-column-Teaser p,#lia-body .lia-content .lia-quilt-column-Headline p{
+	line-height:32px!important;
+}
+#lia-body .lia-content .lia-quilt-column-Headline p{
+	font-size: 24px!important;
+}
+
+#lia-body .lia-content .paragraph p{
+	line-height:28px!important;
 }
