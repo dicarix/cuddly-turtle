@@ -33,7 +33,10 @@
 .hero_container.campaign .hero_text {
 	left: 0;
 	top: 70px;
-	display: block;
+	border: 6px solid #fff;
+	display: inline-block;
+	padding: 35px!important;
+	font-weight: normal;
 }
 .hero_container.campaign .hero_subheader {
 	font-size: 36px;
