@@ -47,15 +47,18 @@
 }
 .hero_container.campaign .hero_button{
 	top: 60px;
-	left: 0;
-	width: 159px;
-	background-image: url("/html/assets/OOTF%20Watch%20Now.png");
-	height: 47px;
-	display: inline-block;
-	background-repeat: no-repeat;
+    left: 0;
+    width: 159px;
+    background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
+    height: 47px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0!important;
+    color: transparent!important;
 }
 .hero_container.campaign .hero_button:hover{
-	/*background-image: url("../../html/assets/OOTF%20Watch%20Now.png");*/
+	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now%20RO.png");
 }
 .hero_container.campaign .logoHP {
 	margin-left: 25%;
