@@ -93,6 +93,7 @@
 	width: 100%;
 }
 .image_footer{
+	padding-bottom: 13px;
 	text-align: left;
 }
 .custom_component_6{
@@ -251,13 +252,13 @@ img.pioneer_avatar{
 }
 .custom_component_5{
 	background-color: #fff;
-	padding-bottom: 60px;
+	margin-bottom: 60px;
 }
 .logos {
-    padding-top: 92px;
+	padding-top: 92px;
 }
 .node-description {
-    padding-top: 3px;
-    padding-left: 9px;
-    padding-bottom: 35px;
+	padding-top: 3px;
+	padding-left: 9px;
+	padding-bottom: 35px;
 }
