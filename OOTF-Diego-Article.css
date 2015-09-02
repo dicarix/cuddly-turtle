@@ -144,17 +144,19 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	font-weight: bold;
 }
 .hero_button{
+	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
+	background-repeat: no-repeat;
 	right: 412px;
 	top: 234px;
-	font-size: 23px;
-	color: #fff;
-	border: 2px solid #fff;
-	padding: 10px!important;
+	color: transparent!important;
 	position: relative;
-	display: inline;
+	display: inline-block;
+	width: 159px;
+	height: 47px;
+
 }
-.hero_button a{
-	color:#fff!important;
+.hero_button:hover{
+	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now%20RO.png");
 }
 .hp-custom-article-secondary-details{
 	display: none;
