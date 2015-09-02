@@ -68,6 +68,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .lia-quilt-column-OfficeoftheFutureLogo{
 	width: 100%!important;
 	text-align: center;
+	background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;	
+	padding-top: 50px;
 }
 .lia-quilt-column-PostedBy{
 	width: 18.4647%!important;
@@ -138,16 +140,15 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	font-size: 48px;
 	color: #fff;
 	position: relative;
-	left: 75px;
-	top: 151px;
+	left: 79px;
+	top: 217px;
 	display: inline;
-	font-weight: bold;
 }
 .hero_button{
 	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
 	background-repeat: no-repeat;
-	right: 412px;
-	top: 234px;
+	right: 393px;
+	top: 286px;
 	color: transparent!important;
 	position: relative;
 	display: inline-block;
@@ -391,13 +392,13 @@ img.inline_image{
 	margin-bottom: 2.15em;
 }
 .custom_component_8.profiles {
-    margin-left: -234px;
-    width: 964px;
+	margin-left: -234px;
+	width: 964px;
 }
 .custom_component_8.profiles p.pioneer_header{
 	text-align: center;
 	margin-bottom: 25px!important;
 }
 #lia-body .lia-content ul#business_pioneers.profile {
-    width: 890px;
+	width: 890px;
 }
