@@ -145,6 +145,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	display: inline;
 }
 .hero_button{
+	outline: none;
 	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
 	background-repeat: no-repeat;
 	right: 407px;
