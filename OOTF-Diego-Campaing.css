@@ -48,6 +48,14 @@
 .hero_container.campaign .hero_button{
 	top: 60px;
 	left: 0;
+	width: 159px;
+	background-image: url("/html/assets/OOTF%20Watch%20Now.png");
+	height: 47px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.hero_container.campaign .hero_button:hover{
+	/*background-image: url("../../html/assets/OOTF%20Watch%20Now.png");*/
 }
 .hero_container.campaign .logoHP {
 	margin-left: 25%;
@@ -264,3 +272,4 @@ img.pioneer_avatar{
 	padding-left: 9px;
 	padding-bottom: 35px;
 }
+
