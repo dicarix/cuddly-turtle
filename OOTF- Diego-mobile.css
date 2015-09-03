@@ -110,9 +110,6 @@ span.Author {
 	width: 100%;
 	text-align: center;
 }
-img.inline_image {
-    width: 100%;
-}
-.aside_image_container img {
-    width: 100%;
+.aside_image_container,img.inline_image{
+    display: none;
 }
