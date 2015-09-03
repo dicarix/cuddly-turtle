@@ -62,6 +62,7 @@ span.Author {
 .paragraph h2{
 	font-family: "HPSimplified-W15", "HPSimplified", arial,sans-serif!important;
 	font-size: 36px!important;
+	padding-bottom: 15px!important;
 	font-weight: bold!important;
 }
 
@@ -79,10 +80,6 @@ span.Author {
 	width: 90%;
 }
 
-/*.author_container > div{
-	width: 28%;
-	float: left;
-}*/
 .author_container .quote_wrapper .quote {
 	font-size: 24px;
 	padding-bottom: 10px!important;
@@ -105,10 +102,10 @@ span.Author {
 	height: 218px;
 }
 #lia-body .lia-content p {
-    font-size: 36px;
-    line-height: 1.200;
+	font-size: 36px;
+	line-height: 1.200;
 }
 .image_wrapper,.quote_wrapper{
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
