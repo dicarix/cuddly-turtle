@@ -11,11 +11,11 @@
 	display: inline-block;
 }
 .hero_text{
-	font-size: 72px;
+	font-size: 72px!important;
 	color: #000;
 	position: absolute;
-	top: 174px;
-	left: 482px;
+	top: 100px;
+	left: 12%;
 	width: 360px;
 	text-align: center;
 	line-height: 72px;
@@ -23,16 +23,16 @@
 span.Author {
 	z-index: 1;
 	position: absolute;
-	top: 546px;
-	left: 330px;
+	top: 515px;
+	left: 82px;
 	font-size: 30px;
 }
-.custom-component-hp-br-related-articles .hp-br-related-articles-messages li .MessageDate {
+.lia-list-slim .MessageDate {
 	position: absolute;
-	top: 547px;
-	left: 832px;
-	font-size: 30px;
-	color: #000!important;
+    top: 565px;
+    left: 108px;
+    font-size: 30px;
+    color: #000!important;
 }
 .lia-list-slim .MessageDate .posted-on{
 	font-size: 30px;
@@ -63,6 +63,7 @@ span.Author {
 	font-family: "HPSimplified-W15", "HPSimplified", arial,sans-serif!important;
 	font-size: 36px!important;
 	padding-bottom: 15px!important;
+	line-height: 42px!important;
 	font-weight: bold!important;
 }
 
@@ -72,7 +73,7 @@ span.Author {
 }
 #lia-body .lia-content p.content_img_1_text{
 	color: #757575;
-	margin-left: 54px;
+	margin-left: 13px;
 	font-size: 30px;
 	margin-top: 28px;
 	line-height: 24px;
