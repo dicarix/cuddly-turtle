@@ -71,9 +71,9 @@ span.Author {
 	width: 100%;
 	height: 300px;
 }
-#lia-body .lia-content p.content_img_1_text{
+#lia-body .lia-content p.content_img_1_text,.aside_image_container p{
 	color: #757575;
-	margin-left: 13px;
+	margin-left: 18px;
 	font-size: 30px;
 	margin-top: 28px;
 	line-height: 24px;
