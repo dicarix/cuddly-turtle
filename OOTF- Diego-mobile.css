@@ -61,7 +61,7 @@ span.Author {
 }
 .paragraph h2{
 	font-family: "HPSimplified-W15", "HPSimplified", arial,sans-serif!important;
-	font-size: 36px!important;
+	font-size: 24px!important;
 	padding-bottom: 15px!important;
 	line-height: 42px!important;
 	font-weight: bold!important;
@@ -103,7 +103,7 @@ span.Author {
 	height: 218px;
 }
 #lia-body .lia-content p {
-	font-size: 36px;
+	font-size: 18px;
 	line-height: 1.200;
 }
 .image_wrapper,.quote_wrapper{
