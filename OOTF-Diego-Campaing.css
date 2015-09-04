@@ -265,4 +265,6 @@ img.pioneer_avatar{
 	padding-left: 9px;
 	padding-bottom: 35px;
 }
-
+.lia-quilt-column-alley.lia-quilt-column-alley-single ul.hp-lang-options{
+	display:inline;
+}
