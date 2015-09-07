@@ -106,7 +106,7 @@ span.Author {
 	position: absolute;
 	top: 255px;
 	width: 49.33%;
-	z-index: 99;
+	z-index: 2;
 	left: 90px;
 	height: 6.625%;
 	text-align: center;
