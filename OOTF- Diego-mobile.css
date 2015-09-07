@@ -5,7 +5,7 @@
 	background-color: #e6e6e6;
 	position: absolute;
 	top: 192px;
-	height: 394px;
+	height: 300px;
 	width: 100vw;
 	margin-left: -12px;
 	display: inline-block;
@@ -21,7 +21,7 @@
 span.Author {
 	z-index: 1;
 	position: absolute;
-	top: 485px;
+	top: 430px;
 	left: 0;
 	font-size: 14px;
 	width: 100%;
@@ -155,5 +155,33 @@ span.Author {
 	line-height: 1;
 	margin-bottom: 6px;
 }
-author
-position
+
+#lia-body .lia-content .lia-button-wrapper {
+	cursor: pointer;
+	display: block;
+}
+.lia-message-actions.lia-component-actions {
+    display: none;
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+	#lia-body.MobileBlogArticlePage .lia-content .blog-article-image {
+		padding-top: 146px;
+	}
+	.hero_button{
+		top: 529px;
+	}
+	#lia-body .lia-content p.MobileTeaser{
+		padding-top: 80px;
+	}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	#lia-body.MobileBlogArticlePage .lia-content .blog-article-image {
+		padding-top: 145px;
+	}
+	.hero_button{
+		top: 593px;
+	}
+	#lia-body .lia-content p.MobileTeaser{
+		padding-top: 160px;
+	}
+}
