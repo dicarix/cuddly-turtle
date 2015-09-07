@@ -76,6 +76,7 @@ span.Author {
 }
 .quote_wrapper {
 	margin-top: 4%;
+	margin-bottom: 30px;
 }
 .author_container .quote_wrapper .author,.author_container .quote_wrapper .position{
 	font-size: 16px;
@@ -117,14 +118,15 @@ span.Author {
 	margin-left: 12px;
 	margin-right: 12px;
 }
-.full_width_image img{
-	width: 100%;
+.full_width_image img,.content_img_1 {
+	width: 100vw;
+	margin-left: -12px;
 }
 #lia-body .lia-content p.full_width_txt,#lia-body .lia-content p.content_img_1_text,.aside_image_container p{
 	color: #757575;
 	font-size: 14px;
 	margin: 5px 10px;
-	padding-bottom: 15px;	
+	padding-bottom: 30px;	
 }
 
 .paragraph p strong {
@@ -132,6 +134,18 @@ span.Author {
 	font-size: 20px;
 }
 #lia-body .lia-content .paragraph p{
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	margin-bottom: 0;
 }
+#lia-body .lia-content p.quote{
+	font-size: 30px;
+	line-height: 1px;
+	margin: 15px 0;
+}
+#lia-body .lia-content p.author,#lia-body .lia-content p.position{
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 6px;
+}
+author
+position
