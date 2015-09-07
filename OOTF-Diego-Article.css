@@ -143,15 +143,17 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 		font-size: 48px;
 		color: #fff;
 		position: relative;
-		left: 79px;
+		left: 276px;
 		top: 152px;
-		display: inline;
+		display: inline-block;
+		width: 964px;
+		text-align: left;
 	}
 	.hero_button{
 		outline: none;
 		background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
 		background-repeat: no-repeat;
-		right: 407px;
+		right: 688px;
 		top: 220px;
 		color: transparent!important;
 		position: relative;
@@ -184,6 +186,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 		color: #757575;
 		font-size: 14px;
 		line-height: 20px!important;
+		padding-top: 58px;
 	}
 	.author_avatar{
 		border-radius: 50%;
@@ -421,4 +424,8 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	}
 	.author_container {
 		padding-bottom: 30px;
+	}
+
+	#lia-body .lia-content p.quote{
+		line-height: 28px!important;
 	}
