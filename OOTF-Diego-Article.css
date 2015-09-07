@@ -96,7 +96,10 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	width:25.2698%!important;
 	min-height: 209px;
 }
-.lia-quilt-column-Share,.lia-quilt-column-Teaser{
+/*.lia-quilt-column-Share,.lia-quilt-column-Teaser{
+	border-bottom:2px solid #f2f2f2;
+}*/
+.lia-quilt-column-Teaser{
 	border-bottom:2px solid #f2f2f2;
 }
 .sub-nav-title-wrapper{
