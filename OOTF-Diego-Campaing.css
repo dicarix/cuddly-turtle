@@ -331,7 +331,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	display:none;
 }
 .lia-quilt-row.lia-quilt-row-row_4{
-	padding: 65px 40px 40px 70px;
+	padding: 40px 40px 40px 70px;
 }
 .lia-quilt-row-row_4{
 	background-color: #fff;
@@ -348,6 +348,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .lia-quilt-column-PostedBy{
 	width: 18.4647%!important;
 	position: relative;
+	margin-top: 25px;
 }
 .lia-mark-empty { 
 	width:	21%!important;
