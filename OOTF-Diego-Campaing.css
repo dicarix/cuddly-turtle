@@ -411,19 +411,23 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	top: -15px;
 	position: relative;
 }
-.hero_text{
+#lia-body .lia-content p.hero_text{
 	font-size: 48px;
 	color: #fff;
 	position: relative;
-	left: 312px;
+	left: 130px;
 	top: 152px;
 	display: inline-block;
-	width: 964px;
 	text-align: left;
+	line-height: 48px!important;
+}
+.hero_text_container{
+	width: 963px;
+	display: inline-block;
 }
 .hero_button{
 	outline: none;
-	background-image: url("/html/assets/OOTF%20Watch%20Now.png");
+	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
 	background-repeat: no-repeat;
 	right: 652px;
 	top: 220px;
