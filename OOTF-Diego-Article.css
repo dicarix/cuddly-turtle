@@ -36,6 +36,7 @@
 }
 .logoHP{
 	padding-bottom: 43px;
+	width: 244px;
 }
 .logo_firstText{
 	font-size: 14px;
@@ -89,6 +90,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 .lia-quilt-column-Teaser p{
 	font-size:24px;
 	color:#a3a3a3;
+	font-family: "HPSimplified-Light", "HPSimplified", arial,sans-serif;
 }
 .lia-quilt-column-Share{
 	width:25.2698%!important;
@@ -234,7 +236,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	height: 375px;
 	position: absolute;
 	background-color: transparent;
-	top: 514px;
+	top: 443px;
 	left: 0;
 	display: inline;
 	width: 100vw;
@@ -260,7 +262,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .aside_image_container {
 	width: 220px;
-	height: 165px;
+	height: 173px;
 	background-color: #e6e6e6;
 	float: right;
 	left: 208px;
@@ -407,4 +409,11 @@ img.inline_image{
 
 #lia-body .lia-content .paragraph p{
 	line-height:28px!important;
+}
+
+.lia-quilt-column-RecentArticles, .lia-quilt-column-RelatedArticles,.lia-quilt-row.lia-quilt-row-row_10{
+    background: #f2f2f2 url(http://i.imgur.com/dZ0rLRT.png) no-repeat;
+}
+.author_container {
+    padding-bottom: 30px;
 }
