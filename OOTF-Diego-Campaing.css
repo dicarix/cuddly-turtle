@@ -106,7 +106,7 @@
 }
 .full_width{
 	background-size: cover;
-	background-position-x: 25%;
+	background-position-x: 78%;
 }
 .full_width.cc6_image{
 	background-image: url("http://h30657-staging.external.hp.com/t5/image/serverpage/image-id/103i9F585020176CEA2B/image-size/original?v=mpbl-1&px=-1");
@@ -125,7 +125,7 @@
 }
 #lia-body .lia-content p.cc6_quote {
 	font-size: 36px;
-	width: 590px;
+	width: 510px;
 	line-height: 50px!important;
 	text-align: left;
 	margin-bottom: 18px;
