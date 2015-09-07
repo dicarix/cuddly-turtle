@@ -94,7 +94,7 @@ span.Author {
 }
 #lia-body .lia-content p {
 	font-size: 18px;
-	line-height: 1.200;
+	line-height: 1.5;
 }
 .image_wrapper,.quote_wrapper{
 	width: 100%;
@@ -121,7 +121,7 @@ span.Author {
 	z-index: 2;
 }
 #lia-body .lia-content p.MobileTeaser{
-	font-size: 28px!important;
+	font-size: 24px!important;
 	color: #757575;
 	margin-left: 12px;
 	margin-right: 12px;
@@ -147,11 +147,11 @@ span.Author {
 }
 #lia-body .lia-content p.quote{
 	font-size: 30px;
-	line-height: 1px;
+	line-height: 30px;
 	margin: 15px 0;
 }
 #lia-body .lia-content p.author,#lia-body .lia-content p.position{
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 1;
 	margin-bottom: 6px;
 }
