@@ -388,19 +388,21 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	margin-left: -9px;
 }
 .author_byText{
-	position: absolute;
+	/*position: absolute;
 	top: 0;
-	left: -20px;
+	left: -20px;*/
+	display: inline;
 }
 .author_name{
-	position: absolute;
+/*	position: absolute;
 	top: 17px;
-	left: -20px;
+	left: -20px;*/
+	display: inline;
 }
 .author_dateText{
-	position: absolute;
+	/*position: absolute;
 	top: 35px;
-	left: -20px;
+	left: -20px;*/
 }
 .hp-custom-article-posted {
 	display: none;
@@ -427,7 +429,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .hero_button{
 	outline: none;
-	background-image: url("http://h30657-staging.external.hp.com/html/assets/OOTF%20Watch%20Now.png");
+	background-image: url("/html/assets/OOTF%20Watch%20Now.png");
 	background-repeat: no-repeat;
 	right: 652px;
 	top: 220px;
@@ -745,3 +747,14 @@ img.inline_image{
 /*.lia-quilt-column-Share,.lia-quilt-column-Teaser{
 border-bottom:2px solid #f2f2f2;
 }*/
+
+.autor_text{
+	float: left;
+	margin-left: -30px;
+	height: 40px;
+	text-align: right;
+}
+.author_image{
+	position: absolute;
+	right: 33px;
+}
