@@ -368,7 +368,6 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 }
 .lia-quilt-column-Share{
 	width:25.2698%!important;
-	min-height: 209px;
 }
 /*.lia-quilt-column-Teaser{
 	border-bottom:2px solid #f2f2f2;
@@ -534,7 +533,7 @@ li.blog-bio-blurb,.lia-panel-heading-bar-wrapper,.lia-user-title,.header-nav-lin
 	padding-bottom: 10px!important;
 }
 .quote_wrapper {
-	margin-top: 17%;
+	margin-top: 18.4%;
 }
 .author_container .quote_wrapper .author,.author_container .quote_wrapper .position{
 	font-size: 16px;
@@ -694,15 +693,14 @@ img.inline_image{
 #lia-body .lia-content p.profile_name{
 	color: #000;
 	font-size: 36px;
-	margin-bottom: 17px;
+	margin-bottom: 9px;
 }
 #lia-body .lia-content p.profile_job{
 	font-size: 24px;
-	margin-bottom: 12px;
+	margin-bottom: 2px;
 }
 #lia-body .lia-content p.profile_link{
 	font-size: 18px;
-	margin-bottom: 2.15em;
 }
 .custom_component_8.profiles {
 	margin-left: -234px;
