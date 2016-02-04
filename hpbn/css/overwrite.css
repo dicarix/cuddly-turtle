@@ -32,4 +32,12 @@ body#lia-body .lia-content {
   line-height: 1.428571429;
   color: #666; }
 
+#lia-body .lia-content .lia-quilt-column-Header_Column h1 {
+  margin-bottom: 6px;
+  font-family: "HPSimplified_Rg";
+  font-size: 36px;
+  font-size: 3.6rem;
+  letter-spacing: 0.15px;
+  line-height: 32px; }
+
 /*# sourceMappingURL=overwrite.css.map */
