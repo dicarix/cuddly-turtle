@@ -27,4 +27,9 @@
     .lia-component-quilt-biz-now2016-header .lia-quilt-row-row_1 {
       width: 940px; } }
 
+body#lia-body .lia-content {
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #666; }
+
 /*# sourceMappingURL=overwrite.css.map */
