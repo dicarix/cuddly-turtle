@@ -100,7 +100,8 @@ body#lia-body .lia-content {
   position: fixed;
   height: 76px;
   top: 150px;
-  margin-left: -10px; }
+  margin-left: -10px;
+  z-index: 2; }
 
 .hp-bn-m-breadcrumbs:after, .hp-bn-m-breadcrumbs:before {
   background-color: #fff; }
