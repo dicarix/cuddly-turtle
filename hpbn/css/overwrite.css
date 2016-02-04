@@ -39,5 +39,29 @@ body#lia-body .lia-content {
   font-size: 3.6rem;
   letter-spacing: 0.15px;
   line-height: 32px; }
+#lia-body .lia-content .lia-quilt-column-Header_Column h2 {
+  font-family: "HPSimplified_Lt";
+  font-size: 18px;
+  font-size: 1.8rem;
+  letter-spacing: 0.11px;
+  line-height: 32px;
+  margin-bottom: 12.5px; }
+
+.hp-bn-m-twitter_btn a {
+  color: #fff !important; }
+
+#lia-body .lia-content .lia-component-common-widget-search-form input.search-input {
+  border: 1px solid #BBBBBB;
+  border-radius: 30px;
+  outline: none;
+  font-family: "HPSimplified_Lt";
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #333333;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+  padding-left: 15px;
+  height: 44px;
+  width: 100%; }
 
 /*# sourceMappingURL=overwrite.css.map */
