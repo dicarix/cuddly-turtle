@@ -67,4 +67,15 @@ body#lia-body .lia-content {
 .lia-quilt-layout-bn2016-campaign > .lia-quilt-row.lia-quilt-row-row_2 {
   padding-top: 220px; }
 
+.hp-bn-m-card.homepage {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 300px;
+  margin-right: 23px; }
+  .hp-bn-m-card.homepage.technology {
+    margin-left: 44px; }
+  .hp-bn-m-card.homepage.resources {
+    margin-right: 0;
+    margin-left: 24px; }
+
 /*# sourceMappingURL=overwrite.css.map */
