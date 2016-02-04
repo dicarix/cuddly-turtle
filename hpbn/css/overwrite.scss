@@ -1,0 +1,47 @@
+.lia-component-quilt-biz-now2016-header{
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 1000;
+	padding: 25px 0 0;
+	background-color: #FFFFFF;
+	width: 100%;
+	color: #333333;
+
+	.lia-quilt-row-row_1 {
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+
+
+		&:before, &:after {
+			content: " ";
+			display: table;
+		}
+
+		&:after {
+			clear: both;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.lia-quilt-row-row_1 {
+			width: 750px;
+		}
+	}
+
+	@media (min-width: 992px) {
+		.lia-quilt-row-row_1 {
+			width: 730px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.lia-quilt-row-row_1 {
+			width: 940px;
+		}
+	}
+}
+
+
