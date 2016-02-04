@@ -85,4 +85,21 @@ body#lia-body .lia-content {
     .hp-bn-m-menu-dropdown .menu_container ul li {
       padding-bottom: 24px !important; }
 
+.lia-quilt-blog-article-page-biz-now2016 > .lia-quilt-row.lia-quilt-row-row_2 {
+  padding-top: 244px;
+  position: relative;
+  z-index: 2; }
+
+.lia-quilt-blog-article-page-biz-now2016 > .lia-quilt-row.lia-quilt-row-row_4 {
+  position: relative;
+  z-index: 1; }
+
+.hp-bn-m-breadcrumbs-container {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  height: 76px;
+  top: 150px;
+  margin-left: -10px; }
+
 /*# sourceMappingURL=overwrite.css.map */
