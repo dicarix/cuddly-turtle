@@ -70,13 +70,7 @@ body#lia-body .lia-content {
 .hp-bn-m-card.homepage {
   margin: 0 auto;
   margin-bottom: 25px;
-  width: 300px;
-  margin-right: 23px; }
-  .hp-bn-m-card.homepage.technology {
-    margin-left: 44px; }
-  .hp-bn-m-card.homepage.resources {
-    margin-right: 0;
-    margin-left: 24px; }
+  width: 300px; }
 
 .hp-bn-m-menu-dropdown .menu_container {
   width: 100%; }
@@ -139,5 +133,8 @@ body#lia-body .lia-content {
     position: absolute;
     top: 0;
     right: 0; }
+
+.hp-bn-m-nav .menu_container {
+  width: 1200px; }
 
 /*# sourceMappingURL=overwrite.css.map */
