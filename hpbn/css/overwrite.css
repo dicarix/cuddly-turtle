@@ -137,4 +137,7 @@ body#lia-body .lia-content {
 .hp-bn-m-nav .menu_container {
   width: 1200px; }
 
+#lia-body .lia-content .hp-bn-m-social-icons ul li {
+  padding-top: 15px; }
+
 /*# sourceMappingURL=overwrite.css.map */
