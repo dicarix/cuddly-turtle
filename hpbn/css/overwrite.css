@@ -146,4 +146,13 @@ body#lia-body .lia-content {
   margin-bottom: 2px;
   list-style: none; }
 
+p.teaser::first-letter {
+  font-family: "HPSimplified_Bd";
+  font-size: 72px;
+  font-size: 7.2rem;
+  float: left;
+  line-height: 60px;
+  padding-right: 8px;
+  padding-left: 3px; }
+
 /*# sourceMappingURL=overwrite.css.map */
