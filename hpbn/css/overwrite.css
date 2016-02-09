@@ -158,7 +158,7 @@ p.teaser::first-letter {
 .hp-bn-m-quote p {
   width: 100%; }
 
-#lia-body .lia-content .lia-quilt-column-Main-article h2.subtitle {
+#lia-body .lia-content .lia-quilt-column-Main-article h2, #lia-body .lia-content .lia-quilt-column-Main-article h3 {
   font-size: 24px;
   font-size: 2.4rem;
   color: #0096D6;
