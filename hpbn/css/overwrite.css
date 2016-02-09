@@ -167,4 +167,16 @@ p.teaser::first-letter {
   padding-bottom: 15px;
   margin-bottom: 0; }
 
+#lia-body .lia-content .lia-quilt-column-Main-article blockquote {
+  font-family: HPSimplified_Lt;
+  font-size: 36px;
+  font-size: 3.6rem;
+  color: #0096D6;
+  letter-spacing: .15px;
+  line-height: 36px;
+  width: 100%;
+  float: right;
+  text-align: right;
+  padding-bottom: 44px; }
+
 /*# sourceMappingURL=overwrite.css.map */
