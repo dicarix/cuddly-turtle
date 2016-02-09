@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .lia-component-quilt-biz-now2016-header {
   top: 0;
   left: 0;
@@ -166,7 +167,6 @@ p.teaser::first-letter {
   letter-spacing: .31px;
   padding-bottom: 15px;
   margin-bottom: 0; }
-
 #lia-body .lia-content .lia-quilt-column-Main-article blockquote {
   font-family: HPSimplified_Lt;
   font-size: 36px;
@@ -178,5 +178,32 @@ p.teaser::first-letter {
   float: right;
   text-align: right;
   padding-bottom: 44px; }
+#lia-body .lia-content .lia-quilt-column-Main-article ol {
+  margin: 0;
+  padding: 0; }
+  #lia-body .lia-content .lia-quilt-column-Main-article ol li {
+    list-style-type: none;
+    counter-increment: step-counter;
+    margin-bottom: 10px; }
+    #lia-body .lia-content .lia-quilt-column-Main-article ol li::before {
+      content: counter(step-counter);
+      color: #0096D6;
+      font-family: HPSimplified_Bd;
+      font-size: 36px;
+      font-size: 3.6rem;
+      display: block; }
+    #lia-body .lia-content .lia-quilt-column-Main-article ol li ul {
+      padding: 0;
+      padding-bottom: 30px; }
+      #lia-body .lia-content .lia-quilt-column-Main-article ol li ul li::before {
+        font-size: 12px;
+        font-size: 1.2rem;
+        content: "•";
+        display: inline;
+        color: #0096D6;
+        vertical-align: middle;
+        margin-right: 10px; }
+      #lia-body .lia-content .lia-quilt-column-Main-article ol li ul p, #lia-body .lia-content .lia-quilt-column-Main-article ol li ul span {
+        display: inline; }
 
 /*# sourceMappingURL=overwrite.css.map */
