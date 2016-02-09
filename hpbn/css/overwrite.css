@@ -215,4 +215,12 @@ p.teaser::first-letter {
   display: inline-block;
   margin-right: 10px; }
 
+#lia-body .lia-content .hp-bn-m-related-articles h1 {
+  font-size: 32px;
+  font-size: 3.2rem;
+  color: #333;
+  letter-spacing: .15px;
+  line-height: 32px;
+  padding-bottom: 18px; }
+
 /*# sourceMappingURL=overwrite.css.map */
