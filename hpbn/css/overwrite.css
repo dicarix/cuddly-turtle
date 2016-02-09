@@ -205,6 +205,8 @@ p.teaser::first-letter {
         margin-right: 10px; }
       #lia-body .lia-content .lia-quilt-column-Main-article ol li ul p, #lia-body .lia-content .lia-quilt-column-Main-article ol li ul span {
         display: inline; }
+#lia-body .lia-content .lia-quilt-column-Main-article img {
+  width: 100%; }
 
 .hp-bn-m-card.aside {
   top: 75vh; }
