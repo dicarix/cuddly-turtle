@@ -66,7 +66,7 @@ body#lia-body .lia-content {
   width: 100%; }
 
 .lia-quilt-layout-bn2016-campaign > .lia-quilt-row.lia-quilt-row-row_2 {
-  padding-top: 220px; }
+  padding-top: 230px; }
 
 .hp-bn-m-card.homepage {
   margin: 0 auto;
@@ -100,6 +100,9 @@ body#lia-body .lia-content {
 
 .hp-bn-m-breadcrumbs:after, .hp-bn-m-breadcrumbs:before {
   background-color: #fff; }
+
+.hp-bn-m-breadcrumbs.fixed {
+  top: 214px; }
 
 .hp-bn-m-search-container {
   position: relative; }
