@@ -227,19 +227,22 @@ p.teaser::first-letter {
   font-size: 2.4rem;
   padding-bottom: 18px;
   line-height: 26px; }
-#lia-body .lia-content .hp-bn-readMore a {
-  color: #666;
-  font-family: "HPSimplified_Lt";
-  font-size: 16px;
-  font-size: 1.6rem;
-  letter-spacing: 0.15px;
-  line-height: 32px;
-  background: #FFFFFF;
-  border: 2px solid #666666;
-  border-radius: 2px;
-  text-align: center;
-  margin: 0 auto;
-  display: block; }
+#lia-body .lia-content .hp-bn-readMore {
+  width: 300px;
+  margin: 0 auto; }
+  #lia-body .lia-content .hp-bn-readMore a {
+    color: #666;
+    font-family: "HPSimplified_Lt";
+    font-size: 16px;
+    font-size: 1.6rem;
+    letter-spacing: 0.15px;
+    line-height: 32px;
+    background: #FFFFFF;
+    border: 2px solid #666666;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0 auto;
+    display: block; }
 
 .hp-bn-m-social-icons.fixed > span {
   cursor: pointer; }
