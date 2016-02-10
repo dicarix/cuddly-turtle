@@ -226,4 +226,7 @@ p.teaser::first-letter {
   font-size: 2.1rem;
   padding-bottom: 0; }
 
+.hp-bn-m-social-icons.fixed > span {
+  cursor: pointer; }
+
 /*# sourceMappingURL=overwrite.css.map */
