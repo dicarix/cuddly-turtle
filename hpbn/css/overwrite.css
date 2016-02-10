@@ -104,6 +104,8 @@ body#lia-body .lia-content {
 .hp-bn-m-search-container {
   position: relative; }
   .hp-bn-m-search-container .search_input {
+    width: 220px;
+    float: right;
     border: 1px solid #BBB;
     border-radius: 30px;
     outline: 0;
