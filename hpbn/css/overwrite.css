@@ -215,14 +215,14 @@ p.teaser::first-letter {
 #lia-body .lia-content .hp-bn-m-related-articles ul li {
   display: inline-block;
   margin-right: 10px; }
-#lia-body .lia-content .hp-bn-m-related-articles h1 {
+#lia-body .lia-content .hp-bn-m-related-articles h3 {
   font-size: 32px;
   font-size: 3.2rem;
   color: #333;
   letter-spacing: .15px;
   line-height: 32px;
   padding-bottom: 18px; }
-#lia-body .lia-content .hp-bn-m-card .text_container h3 {
+#lia-body .lia-content .hp-bn-m-card .text_container h1 {
   font-size: 21px;
   font-size: 2.1rem;
   padding-bottom: 0; }
