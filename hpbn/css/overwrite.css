@@ -216,16 +216,17 @@ p.teaser::first-letter {
   display: inline-block;
   margin-right: 10px; }
 #lia-body .lia-content .hp-bn-m-related-articles h3 {
-  font-size: 32px;
-  font-size: 3.2rem;
-  color: #333;
-  letter-spacing: .15px;
-  line-height: 32px;
-  padding-bottom: 18px; }
+  font-family: "HPSimplified_Lt";
+  font-size: 24px;
+  font-size: 2.4rem;
+  padding-bottom: 18px;
+  line-height: 26px; }
 #lia-body .lia-content .hp-bn-m-card .text_container h1 {
-  font-size: 21px;
-  font-size: 2.1rem;
-  padding-bottom: 0; }
+  font-family: "HPSimplified_Lt";
+  font-size: 24px;
+  font-size: 2.4rem;
+  padding-bottom: 18px;
+  line-height: 26px; }
 
 .hp-bn-m-social-icons.fixed > span {
   cursor: pointer; }
