@@ -116,8 +116,7 @@ body#lia-body .lia-content {
     letter-spacing: .15px;
     line-height: 32px;
     padding-left: 15px !important;
-    height: 44px;
-    width: 100%; }
+    height: 44px; }
     .hp-bn-m-search-container .search_input::-webkit-input-placeholder {
       color: #333; }
     .hp-bn-m-search-container .search_input:-moz-placeholder {
