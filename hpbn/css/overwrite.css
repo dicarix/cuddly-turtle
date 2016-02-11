@@ -71,11 +71,6 @@ body#lia-body .lia-content {
 .lia-quilt-layout-bn2016-campaign > .lia-quilt-row.lia-quilt-row-row_2 {
   padding-top: 230px; }
 
-.hp-bn-m-card.homepage {
-  margin: 0 auto;
-  margin-bottom: 25px;
-  width: 300px; }
-
 .hp-bn-m-menu-dropdown .menu_container {
   width: 100%; }
   .hp-bn-m-menu-dropdown .menu_container ul {
@@ -229,20 +224,34 @@ p.teaser::first-letter {
   line-height: 26px; }
   #lia-body .lia-content .hp-bn-m-related-articles h3 a {
     color: inherit; }
-#lia-body .lia-content .hp-bn-m-card .recommended-text p {
-  margin: 0; }
-#lia-body .lia-content .hp-bn-m-card .text_container h1 {
-  font-family: "HPSimplified_Lt";
-  font-size: 24px;
-  font-size: 2.4rem;
-  padding-bottom: 18px;
-  line-height: 26px; }
-  #lia-body .lia-content .hp-bn-m-card .text_container h1 a {
-    color: inherit; }
-#lia-body .lia-content .hp-bn-readMore {
+#lia-body .lia-content .hp-bn-m-card.homepage {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 300px; }
+  #lia-body .lia-content .hp-bn-m-card.homepage img {
+    height: 204px; }
+  #lia-body .lia-content .hp-bn-m-card.homepage .text_container {
+    padding: 24px 10px;
+    padding-bottom: 0; }
+  #lia-body .lia-content .hp-bn-m-card.homepage .recommended-text p {
+    margin: 0; }
+  #lia-body .lia-content .hp-bn-m-card.homepage .text_container h1 {
+    font-family: "HPSimplified_Lt";
+    font-size: 24px;
+    font-size: 2.4rem;
+    padding-bottom: 15px;
+    line-height: 27px; }
+    #lia-body .lia-content .hp-bn-m-card.homepage .text_container h1 a {
+      color: inherit; }
+  #lia-body .lia-content .hp-bn-m-card.homepage .text_container p {
+    line-height: 24px;
+    margin-bottom: 25px; }
+  #lia-body .lia-content .hp-bn-m-card.homepage p.readTime {
+    margin-bottom: 6px; }
+#lia-body .lia-content .hp-bn-m-card .hp-bn-readMore {
   width: 300px;
   margin: 0 auto; }
-  #lia-body .lia-content .hp-bn-readMore a {
+  #lia-body .lia-content .hp-bn-m-card .hp-bn-readMore a {
     color: #666;
     font-family: "HPSimplified_Lt";
     font-size: 16px;
@@ -255,9 +264,9 @@ p.teaser::first-letter {
     text-align: center;
     margin: 0 auto;
     display: block; }
-#lia-body .lia-content .hp-bn-m-tags {
+#lia-body .lia-content .hp-bn-m-card .hp-bn-m-tags {
   width: 100%; }
-  #lia-body .lia-content .hp-bn-m-tags ul li {
+  #lia-body .lia-content .hp-bn-m-card .hp-bn-m-tags ul li {
     display: inline-flex;
     padding-bottom: 10px;
     padding-right: 10px; }
