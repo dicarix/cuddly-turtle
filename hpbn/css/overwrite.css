@@ -229,6 +229,8 @@ p.teaser::first-letter {
   line-height: 26px; }
   #lia-body .lia-content .hp-bn-m-related-articles h3 a {
     color: inherit; }
+#lia-body .lia-content .hp-bn-m-card .recommended-text p {
+  margin: 0; }
 #lia-body .lia-content .hp-bn-m-card .text_container h1 {
   font-family: "HPSimplified_Lt";
   font-size: 24px;
