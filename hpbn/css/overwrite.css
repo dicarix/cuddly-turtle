@@ -233,6 +233,8 @@ p.teaser::first-letter {
   font-size: 2.4rem;
   padding-bottom: 18px;
   line-height: 26px; }
+  #lia-body .lia-content .hp-bn-m-card .text_container h1 a {
+    color: inherit; }
 #lia-body .lia-content .hp-bn-readMore {
   width: 300px;
   margin: 0 auto; }
