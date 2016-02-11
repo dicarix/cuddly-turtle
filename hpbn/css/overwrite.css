@@ -257,4 +257,12 @@ p.teaser::first-letter {
 .hp-bn-m-social-icons.fixed > span {
   cursor: pointer; }
 
+.hp-bn-m-nav .menu_container .link-container a.business.active {
+  left: 7px;
+  position: relative; }
+
+.hp-bn-m-nav .menu_container .link-container a.resources.active {
+  left: -7px;
+  position: relative; }
+
 /*# sourceMappingURL=overwrite.css.map */
