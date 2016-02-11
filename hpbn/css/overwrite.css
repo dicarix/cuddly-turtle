@@ -264,9 +264,9 @@ p.teaser::first-letter {
     text-align: center;
     margin: 0 auto;
     display: block; }
-#lia-body .lia-content .hp-bn-m-card .hp-bn-m-tags {
+#lia-body .lia-content .hp-bn-m-tags {
   width: 100%; }
-  #lia-body .lia-content .hp-bn-m-card .hp-bn-m-tags ul li {
+  #lia-body .lia-content .hp-bn-m-tags ul li {
     display: inline-flex;
     padding-bottom: 10px;
     padding-right: 10px; }
