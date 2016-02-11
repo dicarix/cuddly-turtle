@@ -100,7 +100,8 @@ body#lia-body .lia-content {
   background-color: #fff; }
 
 .hp-bn-m-breadcrumbs.fixed {
-  top: 214px; }
+  top: 214px;
+  height: 30px; }
 
 .hp-bn-m-search-container {
   position: relative; }
