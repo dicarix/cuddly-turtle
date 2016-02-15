@@ -250,10 +250,16 @@ p.teaser::first-letter {
     margin-bottom: 25px; }
   #lia-body .lia-content .hp-bn-m-card.homepage p.readTime {
     margin-bottom: 6px; }
-#lia-body .lia-content .hp-bn-m-card .hp-bn-readMore {
-  width: 300px;
-  margin: 0 auto; }
-  #lia-body .lia-content .hp-bn-m-card .hp-bn-readMore a {
+#lia-body .lia-content .hp-bn-readMore {
+  text-align: center;
+  border-radius: 2px; }
+  #lia-body .lia-content .hp-bn-readMore.business {
+    border: 2px solid #EA4463; }
+  #lia-body .lia-content .hp-bn-readMore.technology {
+    border: 2px solid #21CCD1; }
+  #lia-body .lia-content .hp-bn-readMore.resources {
+    border: 2px solid #7C3893; }
+  #lia-body .lia-content .hp-bn-readMore a {
     color: #666;
     font-family: "HPSimplified_Lt";
     font-size: 16px;
@@ -261,7 +267,6 @@ p.teaser::first-letter {
     letter-spacing: 0.15px;
     line-height: 32px;
     background: #FFFFFF;
-    border: 2px solid #666666;
     border-radius: 2px;
     text-align: center;
     margin: 0 auto;
