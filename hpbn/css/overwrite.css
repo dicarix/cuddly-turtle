@@ -299,8 +299,7 @@ p.teaser::first-letter {
     font-family: "HPSimplified_RG"; }
   #lia-body .lia-content .hp-bn-m-pagination a.indicator {
     color: #666;
-    text-decoration: none;
-    border-bottom: 1px solid #21CCD1; }
+    text-decoration: none; }
   #lia-body .lia-content .hp-bn-m-pagination span {
     color: #21CCD1; }
     #lia-body .lia-content .hp-bn-m-pagination span.indicator {
