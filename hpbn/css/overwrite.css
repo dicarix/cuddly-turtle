@@ -218,7 +218,7 @@ p.teaser::first-letter {
 
 .hp-bn-m-card.aside {
   top: 75vh;
-  right: 0; }
+  right: 25px; }
 
 #lia-body .lia-content .hp-bn-m-related-articles ul li {
   display: inline-block;
