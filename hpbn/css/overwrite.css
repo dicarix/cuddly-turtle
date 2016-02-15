@@ -290,6 +290,19 @@ p.teaser::first-letter {
     display: inline-flex;
     padding-bottom: 10px;
     padding-right: 10px; }
+#lia-body .lia-content .hp-bn-m-pagination {
+  text-align: center;
+  margin: 10px; }
+  #lia-body .lia-content .hp-bn-m-pagination a.readmore {
+    color: #333;
+    text-transform: uppercase;
+    font-family: "HPSimplified_RG"; }
+  #lia-body .lia-content .hp-bn-m-pagination span {
+    color: #21CCD1; }
+    #lia-body .lia-content .hp-bn-m-pagination span.indicator {
+      color: #666;
+      text-decoration: none;
+      border-bottom: 1px solid #21CCD1; }
 
 .hp-bn-m-social-icons.fixed > span {
   cursor: pointer; }
