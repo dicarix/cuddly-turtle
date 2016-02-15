@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+  -ms-overflow-style: scrollbar; }
+
 .lia-quilt-category-page-biz-now2016.lia-quilt-layout-bn2016-campaign {
   margin-bottom: 40px; }
 
