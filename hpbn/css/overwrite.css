@@ -281,6 +281,9 @@ p.teaser::first-letter {
       font-size: 1.6rem;
       position: absolute;
       right: 23px; }
+      #lia-body .lia-content .hp-bn-readMore span.read_more i {
+        top: -1px;
+        position: relative; }
 #lia-body .lia-content .hp-bn-m-tags {
   width: 100%; }
   #lia-body .lia-content .hp-bn-m-tags ul li {
