@@ -254,25 +254,33 @@ p.teaser::first-letter {
   text-align: center;
   border-radius: 2px;
   width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 45px;
+  position: relative; }
   #lia-body .lia-content .hp-bn-readMore.business {
     border: 2px solid #EA4463; }
   #lia-body .lia-content .hp-bn-readMore.technology {
     border: 2px solid #21CCD1; }
   #lia-body .lia-content .hp-bn-readMore.resources {
     border: 2px solid #7C3893; }
-  #lia-body .lia-content .hp-bn-readMore a {
-    color: #666;
-    font-family: "HPSimplified_Lt";
-    font-size: 16px;
-    font-size: 1.6rem;
-    letter-spacing: 0.15px;
+  #lia-body .lia-content .hp-bn-readMore span {
+    font-family: "HPSimplified_Rg";
     line-height: 32px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    text-align: center;
-    margin: 0 auto;
-    display: block; }
+    position: absolute;
+    top: 5px; }
+    #lia-body .lia-content .hp-bn-readMore span.category {
+      color: #666;
+      font-size: 18px;
+      font-size: 1.8rem;
+      letter-spacing: 0.15px;
+      left: 23px; }
+    #lia-body .lia-content .hp-bn-readMore span.read_more {
+      color: #333;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-size: 1.6rem;
+      position: absolute;
+      right: 23px; }
 #lia-body .lia-content .hp-bn-m-tags {
   width: 100%; }
   #lia-body .lia-content .hp-bn-m-tags ul li {
