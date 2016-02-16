@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,8CAA+C;EAC3C,OAAO,EAAE,OAAO;EAChB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,EAAE;EACX,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,KAAK",
+"sources": ["overwrite_mobile.scss"],
+"names": [],
+"file": "overwrite_mobile.css"
+}

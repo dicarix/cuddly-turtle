@@ -20,6 +20,14 @@
 	}
 }
 
+$business-color:           #EA4463;
+$resources-color:         #7C3893;
+$technology-color:         #21CCD1;
+
+body{
+	-ms-overflow-style: scrollbar;
+}
+
 .lia-quilt-category-page-biz-now2016.lia-quilt-layout-bn2016-campaign{
 	margin-bottom: 40px;
 }
@@ -93,6 +101,18 @@ body#lia-body .lia-content{
 		margin-bottom: 12.5px;
 	}
 }
+.hp-bn-m-twitter_btn{
+	text-align: center;
+	&.bottom{
+		width: 680px;
+		float: none;
+	}
+	&.footer{
+		width: 100%;
+		background-color: #fff;
+	}
+}
+
 .hp-bn-m-twitter_btn a{
 	color:#fff!important;
 }
@@ -146,6 +166,7 @@ body#lia-body .lia-content{
 }
 .hp-bn-m-breadcrumbs.fixed {
 	top: 214px;
+	height:30px;
 }
 .hp-bn-m-search-container {
 	position: relative;
@@ -267,7 +288,7 @@ p.teaser::first-letter{
 }
 .hp-bn-m-card.aside {
 	top: 75vh;
-	right:0;
+	right:25px;
 }
 #lia-body .lia-content{
 	.hp-bn-m-related-articles{
@@ -319,31 +340,82 @@ p.teaser::first-letter{
 				margin-bottom: 6px;
 			} 
 		}
-		.hp-bn-readMore{
-			width:300px;
-			margin:0 auto;
-			a{
+	}
+	.hp-bn-readMore{
+
+		text-align: center;
+		border-radius: 2px;
+		width: 300px;
+		margin: 0 auto;
+		height: 45px;
+		position: relative;
+		&.business{
+			border: 2px solid $business-color;
+		}
+		&.technology{
+			border: 2px solid $technology-color;
+		}
+		&.resources{
+			border: 2px solid $resources-color;
+		}
+		span{
+			font-family: "HPSimplified_Rg";
+			line-height: 32px;
+			position: absolute;
+			top: 5px;
+			&.category{
 				color: #666;
-				font-family: "HPSimplified_Lt";
+				font-size: 18px;
+				font-size: 1.8rem;
+				letter-spacing: 0.15px;
+				left: 23px;
+			}
+			&.read_more{
+				color:#333;
+				text-transform: uppercase;
 				font-size: 16px;
 				font-size: 1.6rem;
-				letter-spacing: 0.15px;
-				line-height: 32px;
-				background: #FFFFFF;
-				border: 2px solid #666666;
-				border-radius: 2px;
-				text-align: center;
-				margin: 0 auto;
-				display: block;
+				position: absolute;
+				right: 23px;	
+				i{
+					top: -1px;
+					position: relative;
+				}
 			}
 		}
 	}
+	
 	.hp-bn-m-tags {
 		width: 100%;
 		ul li {
+			display: -webkit-inline-flex;
+			display: -ms-inline-flexbox;
 			display: inline-flex;
 			padding-bottom: 10px;
 			padding-right: 10px;
+		}
+	}
+	.hp-bn-m-pagination{
+		text-align:center; 
+		margin: 10px;
+		a{
+			&.readmore{
+				color: #333;
+				text-transform: uppercase;
+				font-family: "HPSimplified_RG";
+			}
+			&.indicator{
+				color:#666;
+				text-decoration: none;
+			}
+		}
+		span{
+			color:$technology-color;
+			&.indicator{
+				color:#666;
+				text-decoration: none;
+				border-bottom: 1px solid $technology-color;
+			}
 		}
 	}
 }
