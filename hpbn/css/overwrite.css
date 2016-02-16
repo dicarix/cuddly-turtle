@@ -55,10 +55,10 @@ body#lia-body .lia-content {
   margin-bottom: 12.5px; }
 
 .hp-bn-m-twitter_btn {
-  text-align: center;
-  float: none; }
+  text-align: center; }
   .hp-bn-m-twitter_btn.bottom {
-    width: 680px; }
+    width: 680px;
+    float: none; }
   .hp-bn-m-twitter_btn.footer {
     width: 100%;
     background-color: #fff; }
