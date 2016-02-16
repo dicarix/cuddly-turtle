@@ -60,7 +60,8 @@ body#lia-body .lia-content {
   .hp-bn-m-twitter_btn .bottom {
     width: 680px; }
   .hp-bn-m-twitter_btn .footer {
-    width: 100%; }
+    width: 100%;
+    background-color: #fff; }
 
 .hp-bn-m-twitter_btn a {
   color: #fff !important; }
