@@ -387,9 +387,7 @@ p.teaser::first-letter{
 	.hp-bn-m-tags {
 		width: 100%;
 		ul li {
-			display: -webkit-inline-flex;
-			display: -ms-inline-flexbox;
-			display: inline-flex;
+			@include inline-flex;
 			padding-bottom: 10px;
 			padding-right: 10px;
 		}

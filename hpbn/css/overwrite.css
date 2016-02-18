@@ -295,7 +295,9 @@ p.teaser::first-letter {
 #lia-body .lia-content .hp-bn-m-tags {
   width: 100%; }
   #lia-body .lia-content .hp-bn-m-tags ul li {
+    display: -webkit-inline-box;
     display: -webkit-inline-flex;
+    display: -moz-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     padding-bottom: 10px;
