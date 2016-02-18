@@ -153,15 +153,6 @@ body#lia-body .lia-content {
 .hp-bn-m-nav .menu_container {
   width: 940px; }
 
-#lia-body .lia-content .hp-bn-m-social-icons ul li {
-  padding-top: 15px; }
-
-#lia-body .lia-content .hp-bn-m-breadcrumbs ul {
-  margin-top: -1px;
-  padding: 0;
-  margin-bottom: 2px;
-  list-style: none; }
-
 p.teaser::first-letter {
   font-family: "HPSimplified_Bd";
   font-size: 72px;
@@ -325,6 +316,16 @@ p.teaser::first-letter {
       color: #666;
       text-decoration: none;
       border-bottom: 1px solid #21CCD1; }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #lia-body .lia-content .hp-bn-m-social-icons {
+    right: 10px; } }
+#lia-body .lia-content .hp-bn-m-social-icons ul li {
+  padding-top: 15px; }
+#lia-body .lia-content .hp-bn-m-breadcrumbs ul {
+  margin-top: -1px;
+  padding: 0;
+  margin-bottom: 2px;
+  list-style: none; }
 
 .hp-bn-m-social-icons.fixed > span {
   cursor: pointer; }
