@@ -350,7 +350,7 @@ p.teaser::first-letter {
   height: 30px; }
 
 .at-share-btn {
-  display: block;
-  max-height: 3pc; }
+  display: block !important;
+  max-height: 3pc !important; }
 
 /*# sourceMappingURL=overwrite.css.map */
