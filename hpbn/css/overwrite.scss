@@ -19,6 +19,13 @@
 		}
 	}
 }
+@mixin inline-flex {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
 
 $business-color:           #EA4463;
 $resources-color:         #7C3893;
@@ -292,9 +299,11 @@ p.teaser::first-letter{
 }
 #lia-body .lia-content{
 	.hp-bn-m-related-articles{
-		ul li {
-			display: inline-block;
-			margin-right: 10px;
+		ul {
+			@include inline-flex;
+			li {
+				margin-right: 10px;
+			}
 		}
 		h3 {
 			font-family: "HPSimplified_Lt";

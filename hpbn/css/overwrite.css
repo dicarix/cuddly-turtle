@@ -227,9 +227,14 @@ p.teaser::first-letter {
   top: 75vh;
   right: 25px; }
 
-#lia-body .lia-content .hp-bn-m-related-articles ul li {
-  display: inline-block;
-  margin-right: 10px; }
+#lia-body .lia-content .hp-bn-m-related-articles ul {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  #lia-body .lia-content .hp-bn-m-related-articles ul li {
+    margin-right: 10px; }
 #lia-body .lia-content .hp-bn-m-related-articles h3 {
   font-family: "HPSimplified_Lt";
   font-size: 24px;
