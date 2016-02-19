@@ -1,18 +1,7 @@
 #lia-body .lia-content .lia-component-quilt-biz-now2016-mobile-header {
-  padding: 9px 0 0;
+  padding: 9px 15px 0;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   background-color: #fff;
-  padding: 9px 0 0;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 1000; }
   #lia-body .lia-content .lia-component-quilt-biz-now2016-mobile-header h1 {
     font-size: 20px;
