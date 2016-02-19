@@ -38,6 +38,8 @@ body#lia-body .lia-content {
   font-size: 18px;
   line-height: 1.428571429;
   color: #666; }
+  body#lia-body .lia-content .lia-quilt-row-footer {
+    font-size: 18px; }
 
 #lia-body .lia-content .lia-quilt-column-Header_Column h1 {
   margin-bottom: 6px;
@@ -318,7 +320,7 @@ p.teaser::first-letter {
       color: #666;
       text-decoration: none;
       border-bottom: 1px solid #21CCD1; }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   #lia-body .lia-content .hp-bn-m-social-icons {
     right: 10px; } }
 #lia-body .lia-content .hp-bn-m-social-icons ul li {
