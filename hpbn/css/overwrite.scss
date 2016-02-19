@@ -30,6 +30,8 @@
 $business-color:           #EA4463;
 $resources-color:         #7C3893;
 $technology-color:         #21CCD1;
+$default-color :         #0096D6;
+
 
 body{
 	-ms-overflow-style: scrollbar;
@@ -184,7 +186,7 @@ p.teaser::first-letter{
 	h2,h3{
 		font-size: 24px;
 		font-size: 2.4rem;
-		color: #0096D6;
+		color: $default-color;
 		line-height: 30px;
 		letter-spacing: .31px;
 		padding-bottom: 15px;
@@ -194,7 +196,7 @@ p.teaser::first-letter{
 		font-family: HPSimplified_Lt;
 		font-size: 36px;
 		font-size: 3.6rem;
-		color: #0096D6;
+		color: $default-color;
 		letter-spacing: .15px;
 		line-height: 36px;
 		width: 100%;
@@ -211,7 +213,7 @@ p.teaser::first-letter{
 			margin-bottom: 10px;
 			&::before{
 				content: counter(step-counter);
-				color: #0096D6;
+				color: $default-color;
 				font-family: HPSimplified_Bd;
 				font-size: 36px;
 				font-size: 3.6rem;
@@ -226,7 +228,7 @@ p.teaser::first-letter{
 						font-size: 1.2rem;
 						content: "•";
 						display: inline;
-						color: #0096D6;
+						color: $default-color;
 						vertical-align: middle;
 						margin-right: 10px;	
 					}
@@ -411,10 +413,10 @@ p.teaser::first-letter{
 			}
 		}
 		.search_submit {
-			border: 1px solid #0096D6;
+			border: 1px solid $default-color;
 			border-radius: 100px;
 			background-color: #FFF;
-			color: #0096D6;
+			color: $default-color;
 			height: 44px;
 			width: 44px;
 			position: absolute;
