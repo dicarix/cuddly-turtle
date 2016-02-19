@@ -389,6 +389,7 @@ p.teaser::first-letter{
 	.hp-bn-m-search-container {
 		position: relative;
 		.search_input {
+			background-color:#fff;
 			width: 220px;
 			float: right;
 			border: 1px solid #BBB;
@@ -400,7 +401,7 @@ p.teaser::first-letter{
 			color: #333;
 			letter-spacing: .15px;
 			line-height: 32px;
-			padding-left: 15px!important;
+			padding-left: 15px;
 			height: 44px;
 			@include placeholder {
 				color: #333;
