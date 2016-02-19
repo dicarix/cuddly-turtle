@@ -68,20 +68,6 @@ body#lia-body .lia-content {
 .hp-bn-m-twitter_btn a {
   color: #fff !important; }
 
-#lia-body .lia-content .lia-component-common-widget-search-form input.search-input {
-  border: 1px solid #BBBBBB;
-  border-radius: 30px;
-  outline: none;
-  font-family: "HPSimplified_Lt";
-  font-size: 16px;
-  font-size: 1.6rem;
-  color: #333333;
-  letter-spacing: 0.15px;
-  line-height: 32px;
-  padding-left: 15px;
-  height: 44px;
-  width: 100%; }
-
 .lia-quilt-layout-bn2016-campaign > .lia-quilt-row.lia-quilt-row-row_2 {
   padding-top: 230px; }
 
@@ -320,7 +306,7 @@ p.teaser::first-letter {
       color: #666;
       text-decoration: none;
       border-bottom: 1px solid #21CCD1; }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #lia-body .lia-content .hp-bn-m-social-icons {
     right: 10px; } }
 #lia-body .lia-content .hp-bn-m-social-icons ul li {
@@ -330,6 +316,19 @@ p.teaser::first-letter {
   padding: 0;
   margin-bottom: 2px;
   list-style: none; }
+#lia-body .lia-content input.search-input {
+  border: 1px solid #BBBBBB;
+  border-radius: 30px;
+  outline: none;
+  font-family: "HPSimplified_Lt";
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #333333;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+  padding-left: 15px;
+  height: 44px;
+  width: 100%; }
 
 .hp-bn-m-social-icons.fixed > span {
   cursor: pointer; }
