@@ -406,6 +406,9 @@ p.teaser::first-letter{
 			@include placeholder {
 				color: #333;
 			}
+			&.mobile{
+				width:0;
+			}
 		}
 		.search_submit {
 			border: 1px solid #0096D6;

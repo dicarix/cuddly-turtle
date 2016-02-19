@@ -306,6 +306,8 @@ p.teaser::first-letter {
       color: #333; }
     #lia-body .lia-content .hp-bn-m-search-container .search_input:-ms-input-placeholder {
       color: #333; }
+    #lia-body .lia-content .hp-bn-m-search-container .search_input.mobile {
+      width: 0; }
   #lia-body .lia-content .hp-bn-m-search-container .search_submit {
     border: 1px solid #0096D6;
     border-radius: 100px;
