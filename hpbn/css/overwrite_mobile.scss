@@ -1,3 +1,8 @@
+$business-color:           #EA4463;
+$resources-color:         #7C3893;
+$technology-color:         #21CCD1;
+$default-color :         #0096D6;
+
 #lia-body .lia-content {
   .lia-quilt-column-alley{
    > p img, > img {
@@ -61,6 +66,46 @@
     float: right;
     text-align: right;
   }
+  ol{
+    margin: 0;
+    padding: 0;
+    li{
+      list-style-type: none;
+      counter-increment: step-counter;
+      margin-bottom: 10px;
+      &::before{
+        content: counter(step-counter);
+        color: $default-color;
+        font-family: HPSimplified_Bd;
+        font-size: 36px;
+        font-size: 3.6rem;
+        display: block;
+      }
+      ul{
+        padding: 0;
+        padding-bottom: 30px;
+        li{
+          &::before{
+            font-size: 12px;
+            font-size: 1.2rem;
+            content: "•";
+            display: inline;
+            color: $default-color;
+            vertical-align: middle;
+            margin-right: 10px; 
+          }
+        }
+        p,span{
+          display: inline;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px){
+    .hp-bn-m-related-articles ul{
+      display: block;
+    }
+  }
 }
 .lia-quilt-column-Main-article{
   p{
@@ -99,6 +144,9 @@
 
 
 @media screen and (max-width: 767px){
+  .hp-bn-m-related-articles ul{
+    display: block;
+  }
   .hp-bn-m-social-icons{
     text-align:center;
     .at-share-btn{

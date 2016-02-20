@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #lia-body .lia-content .lia-quilt-column-alley > p img, #lia-body .lia-content .lia-quilt-column-alley > img {
   width: 100vw;
   margin: -15px; }
@@ -49,6 +50,36 @@
     letter-spacing: 0.15px;
     float: right;
     text-align: right; }
+  #lia-body .lia-content .lia-quilt-column-main-content ol {
+    margin: 0;
+    padding: 0; }
+    #lia-body .lia-content .lia-quilt-column-main-content ol li {
+      list-style-type: none;
+      counter-increment: step-counter;
+      margin-bottom: 10px; }
+      #lia-body .lia-content .lia-quilt-column-main-content ol li::before {
+        content: counter(step-counter);
+        color: #0096D6;
+        font-family: HPSimplified_Bd;
+        font-size: 36px;
+        font-size: 3.6rem;
+        display: block; }
+      #lia-body .lia-content .lia-quilt-column-main-content ol li ul {
+        padding: 0;
+        padding-bottom: 30px; }
+        #lia-body .lia-content .lia-quilt-column-main-content ol li ul li::before {
+          font-size: 12px;
+          font-size: 1.2rem;
+          content: "•";
+          display: inline;
+          color: #0096D6;
+          vertical-align: middle;
+          margin-right: 10px; }
+        #lia-body .lia-content .lia-quilt-column-main-content ol li ul p, #lia-body .lia-content .lia-quilt-column-main-content ol li ul span {
+          display: inline; }
+  @media screen and (max-width: 767px) {
+    #lia-body .lia-content .lia-quilt-column-main-content .hp-bn-m-related-articles ul {
+      display: block; } }
 #lia-body .lia-content .lia-quilt-column-Main-article p {
   color: #333333;
   font-family: "HPSimplified_Lt"; }
@@ -76,6 +107,9 @@
   padding-right: 15px; }
 
 @media screen and (max-width: 767px) {
+  .hp-bn-m-related-articles ul {
+    display: block; }
+
   .hp-bn-m-social-icons {
     text-align: center; }
     .hp-bn-m-social-icons .at-share-btn {
