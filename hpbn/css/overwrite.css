@@ -57,7 +57,8 @@ body#lia-body .lia-content {
   margin-bottom: 12.5px; }
 
 .hp-bn-m-twitter_btn {
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .hp-bn-m-twitter_btn.bottom {
     width: 680px;
     float: none; }
