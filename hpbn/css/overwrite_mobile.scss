@@ -1,26 +1,108 @@
 #lia-body .lia-content {
-  .lia-component-quilt-biz-now2016-mobile-header {
-    padding: 9px 15px 0;
-    position: fixed;
-    background-color: #fff;
-    z-index: 1000;
-    border-bottom: 1px solid #BBBBBB;
-    padding-bottom: 10px;
-    h1 {
-      font-size: 20px;
-      font-size: 2.0rem;
-      line-height: 20px;
-    }
-    h2 {
-
-      font-size: 16px;
-      font-size: 1.6rem;
-      line-height: 19px;
-      margin-bottom: 7px;
-    }
-  }
-  .lia-quilt-column-main-content{
-    padding-top: 125px;
+  .lia-quilt-column-alley{
+   > p img, > img {
+    width: 100vw;
+    margin: -15px;  
   }
 }
+.lia-component-quilt-biz-now2016-mobile-header {
+  padding: 9px 15px 0;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 1px solid #BBBBBB;
+  padding-bottom: 10px;
+  h1 {
+    font-size: 20px;
+    font-size: 2.0rem;
+    line-height: 20px;
+  }
+  h2 {
 
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 19px;
+    margin-bottom: 7px;
+  }
+}
+.lia-quilt-column-main-content{
+  padding-top: 125px;
+  p{
+    font-family: "HPSimplified_Lt";
+    color: #333333;
+    font-size: 18px;
+    font-size: 1.8rem;
+    letter-spacing: 0.23px;
+    line-height: 30px;
+    &.teaser {
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 36px;
+    }
+  }
+  h2,h3{
+    font-size: 24px;
+    font-size: 2.4rem;
+    color: #0096D6;
+    line-height: 30px;
+    letter-spacing: .31px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+  blockquote{
+    width: 90%;
+    padding-bottom: 40px;
+    line-height: 44px;
+    font-family: "HPSimplified_Lt";
+    font-size: 36px;
+    font-size: 3.6rem;
+    color: #0096D6;
+    letter-spacing: 0.15px;
+    float: right;
+    text-align: right;
+  }
+}
+.lia-quilt-column-Main-article{
+  p{
+    color: #333333;
+    font-family: "HPSimplified_Lt";
+    &.subheader{
+      margin-bottom: 0;
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 36px;
+      letter-spacing: 0.23px;
+    }
+    &.author{
+      font-size: 16px;
+      font-size: 1.6rem;
+      line-height: 40px;
+    }
+    &.readTime {
+      font-family: "HPSimplified_Rg";
+      font-size: 14px;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      line-height: 42px;
+    }
+  }
+
+}
+}
+
+#lia-body .lia-content .lia-quilt-layout-mobile-page > .lia-quilt-row-main{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+@media screen and (max-width: 767px){
+  .hp-bn-m-social-icons{
+    text-align:center;
+    .at-share-btn{
+      display: inline-flex!important;
+    }
+  }
+}

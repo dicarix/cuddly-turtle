@@ -1,3 +1,6 @@
+#lia-body .lia-content .lia-quilt-column-alley > p img, #lia-body .lia-content .lia-quilt-column-alley > img {
+  width: 100vw;
+  margin: -15px; }
 #lia-body .lia-content .lia-component-quilt-biz-now2016-mobile-header {
   padding: 9px 15px 0;
   position: fixed;
@@ -16,5 +19,66 @@
     margin-bottom: 7px; }
 #lia-body .lia-content .lia-quilt-column-main-content {
   padding-top: 125px; }
+  #lia-body .lia-content .lia-quilt-column-main-content p {
+    font-family: "HPSimplified_Lt";
+    color: #333333;
+    font-size: 18px;
+    font-size: 1.8rem;
+    letter-spacing: 0.23px;
+    line-height: 30px; }
+    #lia-body .lia-content .lia-quilt-column-main-content p.teaser {
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 36px; }
+  #lia-body .lia-content .lia-quilt-column-main-content h2, #lia-body .lia-content .lia-quilt-column-main-content h3 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    color: #0096D6;
+    line-height: 30px;
+    letter-spacing: .31px;
+    padding-bottom: 15px;
+    margin-bottom: 0; }
+  #lia-body .lia-content .lia-quilt-column-main-content blockquote {
+    width: 90%;
+    padding-bottom: 40px;
+    line-height: 44px;
+    font-family: "HPSimplified_Lt";
+    font-size: 36px;
+    font-size: 3.6rem;
+    color: #0096D6;
+    letter-spacing: 0.15px;
+    float: right;
+    text-align: right; }
+#lia-body .lia-content .lia-quilt-column-Main-article p {
+  color: #333333;
+  font-family: "HPSimplified_Lt"; }
+  #lia-body .lia-content .lia-quilt-column-Main-article p.subheader {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 36px;
+    letter-spacing: 0.23px; }
+  #lia-body .lia-content .lia-quilt-column-Main-article p.author {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 40px; }
+  #lia-body .lia-content .lia-quilt-column-Main-article p.readTime {
+    font-family: "HPSimplified_Rg";
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 42px; }
+
+#lia-body .lia-content .lia-quilt-layout-mobile-page > .lia-quilt-row-main {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media screen and (max-width: 767px) {
+  .hp-bn-m-social-icons {
+    text-align: center; }
+    .hp-bn-m-social-icons .at-share-btn {
+      display: inline-flex !important; } }
 
 /*# sourceMappingURL=overwrite_mobile.css.map */
