@@ -351,6 +351,39 @@ p.teaser::first-letter{
 			@include inline-flex;
 			padding-bottom: 10px;
 			padding-right: 10px;
+			a {
+				padding: 10px 30px;
+				border-radius: 2px;
+				font-size: 16px;
+				font-size: 1.6rem;
+				color: #666;
+				border: 1px solid $default-color;
+				&:hover {
+					color: #FFF;
+					background-color: $default-color;
+				}
+				&.business {
+					border: 1px solid $business-color;
+					&:hover{
+						color: #FFF;
+						background-color: $business-color;
+					}
+				}
+				&.technology {
+					border: 1px solid $technology-color;
+					&:hover {
+						color: #FFF;
+						background-color: $technology-color;
+					}
+				}
+				&.resources {
+					border: 1px solid $resources-color;
+					&:hover {
+						color: #FFF;
+						background-color: $resources-color;
+					}
+				}
+			}
 		}
 	}
 	.hp-bn-m-pagination{

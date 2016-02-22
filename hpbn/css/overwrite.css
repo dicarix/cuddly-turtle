@@ -257,6 +257,31 @@ p.teaser::first-letter {
     display: inline-flex;
     padding-bottom: 10px;
     padding-right: 10px; }
+    #lia-body .lia-content .hp-bn-m-tags ul li a {
+      padding: 10px 30px;
+      border-radius: 2px;
+      font-size: 16px;
+      font-size: 1.6rem;
+      color: #666;
+      border: 1px solid #0096D6; }
+      #lia-body .lia-content .hp-bn-m-tags ul li a:hover {
+        color: #FFF;
+        background-color: #0096D6; }
+      #lia-body .lia-content .hp-bn-m-tags ul li a.business {
+        border: 1px solid #EA4463; }
+        #lia-body .lia-content .hp-bn-m-tags ul li a.business:hover {
+          color: #FFF;
+          background-color: #EA4463; }
+      #lia-body .lia-content .hp-bn-m-tags ul li a.technology {
+        border: 1px solid #21CCD1; }
+        #lia-body .lia-content .hp-bn-m-tags ul li a.technology:hover {
+          color: #FFF;
+          background-color: #21CCD1; }
+      #lia-body .lia-content .hp-bn-m-tags ul li a.resources {
+        border: 1px solid #7C3893; }
+        #lia-body .lia-content .hp-bn-m-tags ul li a.resources:hover {
+          color: #FFF;
+          background-color: #7C3893; }
 #lia-body .lia-content .hp-bn-m-pagination {
   text-align: center;
   margin: 10px; }
