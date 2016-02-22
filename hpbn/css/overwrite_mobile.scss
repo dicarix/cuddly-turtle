@@ -4,6 +4,16 @@ $technology-color:         #21CCD1;
 $default-color :         #0096D6;
 
 #lia-body .lia-content {
+  .hp-bn-m-nav{
+    z-index: 1001;
+    position: relative;
+    .menu{
+      background-color: #fff;
+      li{
+        background-color: #fff;
+      }
+    }
+  }
   .lia-quilt-column-alley{
    > p img, > img {
     width: 100vw;

@@ -1,4 +1,11 @@
 @charset "UTF-8";
+#lia-body .lia-content .hp-bn-m-nav {
+  z-index: 1001;
+  position: relative; }
+  #lia-body .lia-content .hp-bn-m-nav .menu {
+    background-color: #fff; }
+    #lia-body .lia-content .hp-bn-m-nav .menu li {
+      background-color: #fff; }
 #lia-body .lia-content .lia-quilt-column-alley > p img, #lia-body .lia-content .lia-quilt-column-alley > img {
   width: 100vw;
   margin: -15px; }
