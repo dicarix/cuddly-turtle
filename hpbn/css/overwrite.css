@@ -61,7 +61,8 @@ body#lia-body .lia-content {
   overflow: hidden; }
   .hp-bn-m-twitter_btn.bottom {
     width: 680px;
-    float: none; }
+    float: none;
+    padding-bottom: 15px; }
   .hp-bn-m-twitter_btn.footer {
     width: 100%;
     background-color: #fff; }
