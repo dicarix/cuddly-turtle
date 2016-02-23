@@ -388,4 +388,10 @@ p.teaser::first-letter {
 .sumome-scrollbox-template-default .sumome-scrollbox-form button[style] {
   text-transform: uppercase !important; }
 
+a .at-icon-wrapper[style] {
+  transform: scale(1.2, 1.2);
+  margin-bottom: 5px; }
+  a .at-icon-wrapper[style] svg.at-icon {
+    transform: scale(1.2, 1.2); }
+
 /*# sourceMappingURL=overwrite.css.map */
