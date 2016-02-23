@@ -496,3 +496,15 @@ p.teaser::first-letter{
 	display: block!important;
 	max-height: 3pc!important;
 }
+
+.sumome-scrollbox-form{
+	h2.sumome-scrollbox-heading{
+		font-family: "HPSimplified_Rg";
+	}
+	div.sumome-scrollbox-text,.sumome-scrollbox-input,.sumome-scrollbox-button{
+		font-family: "HPSimplified_Lt"!important;	
+	}
+	a.sumome-scrollbox-link{
+		display: none!important;
+	}
+}
