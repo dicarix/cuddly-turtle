@@ -504,7 +504,12 @@ p.teaser::first-letter{
 	div.sumome-scrollbox-text,.sumome-scrollbox-input,.sumome-scrollbox-button{
 		font-family: "HPSimplified_Lt"!important;	
 	}
+	.sumome-scrollbox-button{
+	}
 	a.sumome-scrollbox-link{
 		display: none!important;
 	}
+}
+.sumome-scrollbox-template-default .sumome-scrollbox-form button[style]{
+			text-transform: uppercase!important;
 }

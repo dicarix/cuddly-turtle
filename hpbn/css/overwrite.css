@@ -386,4 +386,7 @@ p.teaser::first-letter {
 .sumome-scrollbox-form a.sumome-scrollbox-link {
   display: none !important; }
 
+.sumome-scrollbox-template-default .sumome-scrollbox-form button[style] {
+  text-transform: uppercase !important; }
+
 /*# sourceMappingURL=overwrite.css.map */
