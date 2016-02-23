@@ -66,57 +66,58 @@ $default-color :         #0096D6;
     margin-bottom: 0;
   }
   blockquote{
-    width: 90%;
-    padding-bottom: 40px;
-    line-height: 44px;
-    font-family: "HPSimplified_Lt";
-    font-size: 36px;
-    font-size: 3.6rem;
-    color: #0096D6;
-    letter-spacing: 0.15px;
-    float: right;
-    text-align: right;
-  }
-  ol{
-    margin: 0;
-    padding: 0;
-    li{
-      list-style-type: none;
-      counter-increment: step-counter;
-      margin-bottom: 10px;
-      &::before{
-        content: counter(step-counter);
-        color: $default-color;
-        font-family: HPSimplified_Bd;
-        font-size: 36px;
-        font-size: 3.6rem;
-        display: block;
-      }
-      ul{
-        padding: 0;
-        padding-bottom: 30px;
-        li{
-          &::before{
-            font-size: 12px;
-            font-size: 1.2rem;
-            content: "•";
-            display: inline;
-            color: $default-color;
-            vertical-align: middle;
-            margin-right: 10px; 
-          }
-        }
-        p,span{
-          display: inline;
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 767px){
-    .hp-bn-m-related-articles ul{
+   width: 100%;
+   padding-bottom: 40px;
+   line-height: 44px;
+   font-family: "HPSimplified_Lt";
+   font-size: 32px;
+   font-size: 3.2rem;
+   color: #0096D6;
+   letter-spacing: 0.15px;
+   float: right;
+   text-align: right;
+   margin-right: 10px;
+ }
+ ol{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style-type: none;
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+    &::before{
+      content: counter(step-counter);
+      color: $default-color;
+      font-family: HPSimplified_Bd;
+      font-size: 36px;
+      font-size: 3.6rem;
       display: block;
     }
+    ul{
+      padding: 0;
+      padding-bottom: 30px;
+      li{
+        &::before{
+          font-size: 12px;
+          font-size: 1.2rem;
+          content: "•";
+          display: inline;
+          color: $default-color;
+          vertical-align: middle;
+          margin-right: 10px; 
+        }
+      }
+      p,span{
+        display: inline;
+      }
+    }
   }
+}
+@media screen and (max-width: 767px){
+  .hp-bn-m-related-articles ul{
+    display: block;
+  }
+}
 }
 .lia-quilt-column-Main-article{
   p{

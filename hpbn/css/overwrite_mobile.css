@@ -48,16 +48,17 @@
     padding-bottom: 15px;
     margin-bottom: 0; }
   #lia-body .lia-content .lia-quilt-column-main-content blockquote {
-    width: 90%;
+    width: 100%;
     padding-bottom: 40px;
     line-height: 44px;
     font-family: "HPSimplified_Lt";
-    font-size: 36px;
-    font-size: 3.6rem;
+    font-size: 32px;
+    font-size: 3.2rem;
     color: #0096D6;
     letter-spacing: 0.15px;
     float: right;
-    text-align: right; }
+    text-align: right;
+    margin-right: 10px; }
   #lia-body .lia-content .lia-quilt-column-main-content ol {
     margin: 0;
     padding: 0; }
