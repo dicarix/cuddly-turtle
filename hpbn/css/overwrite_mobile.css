@@ -4,7 +4,7 @@
   position: relative; }
   #lia-body .lia-content .hp-bn-m-nav .menu {
     background-color: #F7F7F7; }
-    #lia-body .lia-content .hp-bn-m-nav .menu li {
+    #lia-body .lia-content .hp-bn-m-nav .menu > li {
       background-color: #F7F7F7; }
 #lia-body .lia-content .lia-quilt-column-alley > p img, #lia-body .lia-content .lia-quilt-column-alley > img {
   width: 100vw;

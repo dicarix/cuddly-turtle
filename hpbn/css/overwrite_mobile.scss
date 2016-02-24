@@ -9,7 +9,7 @@ $default-color :         #0096D6;
     position: relative;
     .menu{
       background-color: #F7F7F7;
-      li{
+      > li{
         background-color: #F7F7F7;
       }
     }
