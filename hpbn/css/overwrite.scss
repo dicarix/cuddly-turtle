@@ -26,6 +26,13 @@
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 }
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
 
 $business-color:           #EA4463;
 $resources-color:         #7C3893;
@@ -238,13 +245,7 @@ p.teaser::first-letter{
 		width:100%;
 	}
 }
-.hp-bn-m-card.aside {
-	top: 75vh;
-	right: 0;
-	position: relative;
-	left: 5px;
-	width: 210px;
-}
+
 #lia-body .lia-content{
 
 	.hp-bn-m-menu-dropdown {
@@ -279,8 +280,7 @@ p.teaser::first-letter{
 	.hp-bn-m-card{
 		&:hover{
 			box-shadow: -2px 0 2px 0 rgba(0,0,0,0.16) , 2px 0 2px 0 rgba(0,0,0,0.16) , 0 2px 2px 0 rgba(0,0,0,0.23);
-			-webkit-transform: translate3d(0,-3px,0);
-			transform: translate3d(0,-3px,0);
+			@include transform(translate3d(0,-3px,0));
 		}
 		&.homepage{
 			margin: 0 auto;
@@ -313,6 +313,13 @@ p.teaser::first-letter{
 			p.readTime{
 				margin-bottom: 6px;
 			} 
+		}
+		&.aside {
+			top: 75vh;
+			right: 0;
+			position: relative;
+			left: 5px;
+			width: 210px;
 		}
 	}
 	.hp-bn-readMore{

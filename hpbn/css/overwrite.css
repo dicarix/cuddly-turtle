@@ -163,13 +163,6 @@ p.teaser::first-letter {
 #lia-body .lia-content .lia-quilt-column-Main-article img {
   width: 100%; }
 
-.hp-bn-m-card.aside {
-  top: 75vh;
-  right: 0;
-  position: relative;
-  left: 5px;
-  width: 210px; }
-
 #lia-body .lia-content .hp-bn-m-menu-dropdown {
   height: 160px; }
   #lia-body .lia-content .hp-bn-m-menu-dropdown .menu_container ul {
@@ -194,6 +187,9 @@ p.teaser::first-letter {
     color: inherit; }
 #lia-body .lia-content .hp-bn-m-card:hover {
   box-shadow: -2px 0 2px 0 rgba(0, 0, 0, 0.16), 2px 0 2px 0 rgba(0, 0, 0, 0.16), 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  -moz-transform: translate3d(0, -3px, 0);
+  -o-transform: translate3d(0, -3px, 0);
+  -ms-transform: translate3d(0, -3px, 0);
   -webkit-transform: translate3d(0, -3px, 0);
   transform: translate3d(0, -3px, 0); }
 #lia-body .lia-content .hp-bn-m-card.homepage {
@@ -220,6 +216,12 @@ p.teaser::first-letter {
     margin-bottom: 25px; }
   #lia-body .lia-content .hp-bn-m-card.homepage p.readTime {
     margin-bottom: 6px; }
+#lia-body .lia-content .hp-bn-m-card.aside {
+  top: 75vh;
+  right: 0;
+  position: relative;
+  left: 5px;
+  width: 210px; }
 #lia-body .lia-content .hp-bn-readMore {
   text-align: center;
   border-radius: 2px;
