@@ -27,11 +27,11 @@
 	display: inline-flex;
 }
 @mixin transform($transforms) {
-	   -moz-transform: $transforms;
-	     -o-transform: $transforms;
-	    -ms-transform: $transforms;
+	-moz-transform: $transforms;
+	-o-transform: $transforms;
+	-ms-transform: $transforms;
 	-webkit-transform: $transforms;
-          transform: $transforms;
+	transform: $transforms;
 }
 
 $business-color:           #EA4463;
@@ -167,23 +167,45 @@ body#lia-body .lia-content{
 .hp-bn-m-nav .menu_container{
 	width: 940px;
 }
-p.teaser::first-letter{
-	font-family: "HPSimplified_Bd";
-	font-size: 85px;
-	font-size: 8.5rem;
-	float: left;
-	line-height: 70px;
-	padding-right: 5px;
-}
 .hp-bn-m-quote p{
 	width: 100%;
 }
 
 #lia-body .lia-content .lia-quilt-column-Main-article{
 	p{
-		font-size: 24px;
-		font-size: 2.4rem;
-		line-height: 36px;
+		font-size: 18px;
+		font-size: 1.8rem;
+		line-height: 30px;
+		&.teaser{
+			font-size: 24px;
+			font-size: 2.4rem;
+			line-height: 36px;
+			&::first-letter{
+				font-family: "HPSimplified_Bd";
+				font-size: 85px;
+				font-size: 8.5rem;
+				float: left;
+				line-height: 70px;
+				padding-right: 5px;
+			}
+		}
+		&.readTime {
+			font-family: HPSimplified_Rg;
+			font-size: 14px;
+			font-size: 1.4rem;
+			text-transform: uppercase;
+			line-height: 42px;
+		}
+		&.subheader {
+			font-size: 24px;
+			font-size: 2.4rem;
+			line-height: 36px;
+		}
+		&.author,&.subheader {
+			font-size: 16px;
+			font-size: 1.6rem;
+			line-height: 40px;
+		}
 	}
 	h2,h3{
 		font-size: 24px;
