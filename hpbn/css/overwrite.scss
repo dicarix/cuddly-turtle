@@ -247,7 +247,7 @@ p.teaser::first-letter{
 	top: 75vh;
 	right: 0;
 	position: relative;
-	left: 15px;
+	left: 5px;
 }
 #lia-body .lia-content{
 	.hp-bn-m-related-articles{
@@ -410,6 +410,7 @@ p.teaser::first-letter{
 		}
 	}
 	.hp-bn-m-social-icons{
+		padding-left: 6px;
 		@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
 			right: 10px
 		}

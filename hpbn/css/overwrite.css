@@ -171,7 +171,7 @@ p.teaser::first-letter {
   top: 75vh;
   right: 0;
   position: relative;
-  left: 15px; }
+  left: 5px; }
 
 #lia-body .lia-content .hp-bn-m-related-articles ul {
   display: -webkit-inline-box;
@@ -298,11 +298,13 @@ p.teaser::first-letter {
       color: #666;
       text-decoration: none;
       border-bottom: 1px solid #21CCD1; }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #lia-body .lia-content .hp-bn-m-social-icons {
-    right: 10px; } }
-#lia-body .lia-content .hp-bn-m-social-icons ul li {
-  padding-top: 15px; }
+#lia-body .lia-content .hp-bn-m-social-icons {
+  padding-left: 6px; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #lia-body .lia-content .hp-bn-m-social-icons {
+      right: 10px; } }
+  #lia-body .lia-content .hp-bn-m-social-icons ul li {
+    padding-top: 15px; }
 #lia-body .lia-content .hp-bn-m-breadcrumbs ul {
   margin-top: -1px;
   padding: 0;
