@@ -246,7 +246,9 @@ p.teaser::first-letter{
 }
 .hp-bn-m-card.aside {
 	top: 75vh;
-	right:25px;
+	right: 0;
+	position: relative;
+	left: 15px;
 }
 #lia-body .lia-content{
 	.hp-bn-m-related-articles{
