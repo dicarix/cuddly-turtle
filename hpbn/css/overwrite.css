@@ -230,19 +230,28 @@ body#lia-body .lia-content {
   #lia-body .lia-content .hp-bn-m-card .text_container p.readTime {
     font-size: 14px;
     font-size: 1.4rem;
-    margin-bottom: 6px; }
+    margin-bottom: 6px;
+    font-family: HPSimplified_Rg;
+    text-transform: uppercase; }
 #lia-body .lia-content .hp-bn-m-card.homepage {
   margin: 0 auto;
   margin-bottom: 25px;
   width: 300px; }
   #lia-body .lia-content .hp-bn-m-card.homepage .recommended-text p {
-    margin: 0; }
+    color: #fff;
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 0;
+    font-family: HPSimplified_Rg;
+    text-transform: uppercase; }
 #lia-body .lia-content .hp-bn-m-card.aside {
   top: 75vh;
   right: 0;
   position: relative;
   left: 5px;
   width: 210px; }
+#lia-body .lia-content .hp-bn-m-card.recommended {
+  padding-bottom: 10px; }
 #lia-body .lia-content .hp-bn-readMore {
   text-align: center;
   border-radius: 2px;

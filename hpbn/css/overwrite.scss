@@ -330,6 +330,8 @@ body#lia-body .lia-content{
 				font-size: 14px;
 				font-size: 1.4rem;
 				margin-bottom: 6px;
+				font-family: HPSimplified_Rg;
+				text-transform: uppercase;
 			} 
 		}
 		&.homepage{
@@ -337,7 +339,12 @@ body#lia-body .lia-content{
 			margin-bottom: 25px;
 			width: 300px;
 			.recommended-text p{
-				margin:0;
+				color: #fff;
+				font-size: 14px;
+				font-size: 1.4rem;
+				margin: 0;
+				font-family: HPSimplified_Rg;
+				text-transform: uppercase;
 			}
 		}
 		&.aside {
@@ -346,6 +353,9 @@ body#lia-body .lia-content{
 			position: relative;
 			left: 5px;
 			width: 210px;
+		}
+		&.recommended{
+			padding-bottom: 10px;
 		}
 	}
 	.hp-bn-readMore{
