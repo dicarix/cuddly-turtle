@@ -437,4 +437,19 @@ a .at-icon-wrapper[style] {
   a .at-icon-wrapper[style] svg.at-icon {
     transform: scale(1.2, 1.2); }
 
+.hp-bn-m-card.business.recommended {
+  border: 2px solid #EA4463; }
+  .hp-bn-m-card.business.recommended .recommended-text {
+    background-color: #EA4463; }
+
+.hp-bn-m-card.technology.recommended {
+  border: 2px solid #21CCD1; }
+  .hp-bn-m-card.technology.recommended .recommended-text {
+    background-color: #21CCD1; }
+
+.hp-bn-m-card.resources.recommended {
+  border: 2px solid #7C3893; }
+  .hp-bn-m-card.resources.recommended .recommended-text {
+    background-color: #7C3893; }
+
 /*# sourceMappingURL=overwrite.css.map */

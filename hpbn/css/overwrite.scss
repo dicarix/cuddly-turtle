@@ -579,3 +579,23 @@ a .at-icon-wrapper[style]{
 		transform: scale(1.2,1.2);
 	}
 }
+
+
+.hp-bn-m-card.business.recommended  {
+	border: 2px solid $business-color;
+	.recommended-text{
+		background-color: $business-color;
+	}
+}
+.hp-bn-m-card.technology.recommended  {
+	border: 2px solid $technology-color;
+	.recommended-text{
+		background-color: $technology-color;
+	}
+}
+.hp-bn-m-card.resources.recommended  {
+	border: 2px solid $resources-color;
+	.recommended-text{
+		background-color: $resources-color;
+	}
+}
