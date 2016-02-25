@@ -131,15 +131,6 @@ body#lia-body .lia-content{
 .lia-quilt-layout-bn2016-campaign > .lia-quilt-row.lia-quilt-row-row_2 {
 	padding-top: 230px;
 }
-.hp-bn-m-menu-dropdown .menu_container{
-	width:100%;
-	ul{
-		padding-top: 20px!important;
-		li{
-			padding-bottom: 24px!important;
-		}
-	}
-}
 .lia-quilt-blog-article-page-biz-now2016 > .lia-quilt-row.lia-quilt-row-row_2{
 	padding-top: 244px;
 	position: relative;
@@ -171,11 +162,11 @@ body#lia-body .lia-content{
 }
 p.teaser::first-letter{
 	font-family: "HPSimplified_Bd";
-    font-size: 85px;
-    font-size: 8.5rem;
-    float: left;
-    line-height: 70px;
-    padding-right: 5px;
+	font-size: 85px;
+	font-size: 8.5rem;
+	float: left;
+	line-height: 70px;
+	padding-right: 5px;
 }
 .hp-bn-m-quote p{
 	width: 100%;
@@ -255,6 +246,18 @@ p.teaser::first-letter{
 	width: 210px;
 }
 #lia-body .lia-content{
+
+	.hp-bn-m-menu-dropdown {
+		height: 160px;
+		.menu_container{
+			ul{
+				padding-top: 20px!important;
+				li{
+					padding-bottom: 24px!important;
+				}
+			}
+		}
+	}
 	.hp-bn-m-related-articles{
 		ul {
 			@include inline-flex;
