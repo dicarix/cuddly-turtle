@@ -15,136 +15,137 @@ $default-color :         #0096D6;
     }
   }
   .lia-quilt-column-alley{
-   > p img, > img {
-    width: 100vw;
-    margin: -15px;  
+    > p img, > img {
+      width: 100vw;
+      margin: -15px;  
+    }
   }
-}
-.lia-component-quilt-biz-now2016-mobile-header {
-  padding: 9px 15px 0;
-  position: fixed;
-  background-color: #fff;
-  z-index: 1000;
-  border-bottom: 1px solid #BBBBBB;
-  padding-bottom: 10px;
-  width: 100%;
-  h1 {
-    font-size: 20px;
-    font-size: 2.0rem;
-    line-height: 20px;
-  }
-  h2 {
+  .lia-component-quilt-biz-now2016-mobile-header {
+    padding: 9px 15px 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1000;
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 10px;
+    width: 100%;
+    h1 {
+      font-size: 20px;
+      font-size: 2.0rem;
+      line-height: 20px;
+    }
+    h2 {
 
-    font-size: 16px;
-    font-size: 1.6rem;
-    line-height: 19px;
-    margin-bottom: 7px;
-  }
-}
-.lia-quilt-column-main-content{
-  padding-top: 140px;
-  p{
-    font-family: "HPSimplified_Lt";
-    color: #333333;
-    font-size: 18px;
-    font-size: 1.8rem;
-    letter-spacing: 0.23px;
-    line-height: 30px;
-    &.teaser {
-      font-size: 24px;
-      font-size: 2.4rem;
-      line-height: 36px;
-    }
-  }
-  h2,h3{
-    font-size: 24px;
-    font-size: 2.4rem;
-    color: #0096D6;
-    line-height: 30px;
-    letter-spacing: .31px;
-    padding-bottom: 15px;
-    margin-bottom: 0;
-  }
-  blockquote{
-   width: 100%;
-   padding-bottom: 40px;
-   line-height: 40px;
-   font-family: "HPSimplified_Lt";
-   font-size: 32px;
-   font-size: 3.2rem;
-   color: #0096D6;
-   letter-spacing: 0.15px;
-   float: right;
-   text-align: right;
-   margin-right: 10px;
- }
- ol{
-  margin: 0;
-  padding: 0;
-  li{
-    list-style-type: none;
-    counter-increment: step-counter;
-    margin-bottom: 10px;
-    &::before{
-      content: counter(step-counter);
-      color: $default-color;
-      font-family: HPSimplified_Bd;
-      font-size: 36px;
-      font-size: 3.6rem;
-      display: block;
-    }
-    ul{
-      padding: 0;
-      padding-bottom: 30px;
-      li{
-        &::before{
-          font-size: 12px;
-          font-size: 1.2rem;
-          content: "•";
-          display: inline;
-          color: $default-color;
-          vertical-align: middle;
-          margin-right: 10px; 
-        }
-      }
-      p,span{
-        display: inline;
-      }
-    }
-  }
-}
-@media screen and (max-width: 767px){
-  .hp-bn-m-related-articles ul{
-    display: block;
-  }
-}
-}
-.lia-quilt-column-Main-article{
-  p{
-    color: #333333;
-    font-family: "HPSimplified_Lt";
-    &.subheader{
-      margin-bottom: 0;
-      font-size: 24px;
-      font-size: 2.4rem;
-      line-height: 36px;
-      letter-spacing: 0.23px;
-    }
-    &.author{
       font-size: 16px;
       font-size: 1.6rem;
-      line-height: 40px;
-    }
-    &.readTime {
-      font-family: "HPSimplified_Rg";
-      font-size: 14px;
-      font-size: 1.4rem;
-      text-transform: uppercase;
-      line-height: 42px;
+      line-height: 19px;
+      margin-bottom: 7px;
     }
   }
+  .lia-quilt-column-main-content{
+    padding-top: 140px;
+    p{
+      font-family: "HPSimplified_Lt";
+      color: #333333;
+      font-size: 18px;
+      font-size: 1.8rem;
+      letter-spacing: 0.23px;
+      line-height: 30px;
+      &.teaser {
+        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 36px;
+      }
+    }
+    h2,h3{
+      font-size: 24px;
+      font-size: 2.4rem;
+      color: #0096D6;
+      line-height: 30px;
+      letter-spacing: .31px;
+      padding-bottom: 15px;
+      margin-bottom: 0;
+    }
+    blockquote{
+      width: 100%;
+      padding-bottom: 40px;
+      line-height: 40px;
+      font-family: "HPSimplified_Lt";
+      font-size: 32px;
+      font-size: 3.2rem;
+      color: #0096D6;
+      letter-spacing: 0.15px;
+      float: right;
+      text-align: right;
+      margin-right: 10px;
+    }
+    ol{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style-type: none;
+        counter-increment: step-counter;
+        margin-bottom: 10px;
+        &::before{
+          content: counter(step-counter);
+          color: $default-color;
+          font-family: HPSimplified_Bd;
+          font-size: 36px;
+          font-size: 3.6rem;
+          display: block;
+        }
+        ul{
+          padding: 0;
+          padding-bottom: 30px;
+          li{
+            &::before{
+              font-size: 12px;
+              font-size: 1.2rem;
+              content: "•";
+              display: inline;
+              color: $default-color;
+              vertical-align: middle;
+              margin-right: 10px; 
+            }
+          }
+          p,span{
+            display: inline;
+          }
+        }
+      }
+    }
 
-}
+    @media screen and (max-width: 767px){
+      .hp-bn-m-related-articles ul{
+        display: block;
+      }
+    }
+  }
+  .lia-quilt-column-Main-article{
+    p{
+      color: #333333;
+      font-family: "HPSimplified_Lt";
+      &.subheader{
+        margin-bottom: 0;
+        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 36px;
+        letter-spacing: 0.23px;
+      }
+      &.author{
+        font-size: 16px;
+        font-size: 1.6rem;
+        line-height: 40px;
+      }
+      &.readTime {
+        font-family: "HPSimplified_Rg";
+        font-size: 14px;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        line-height: 42px;
+      }
+    }
+
+  }
 }
 
 #lia-body .lia-content .lia-quilt-layout-mobile-page > .lia-quilt-row-main{
@@ -187,5 +188,14 @@ $default-color :         #0096D6;
       margin-right: 12px!important;
       display: inline-flex!important;
     }
+  }
+  #lia-body .lia-content .hp-bn-m-nav .category .btn-container {
+    padding-bottom: 10px;
+  }
+  #lia-body .lia-content .hp-bn-m-menu-dropdown{
+    height: inherit; 
+  }
+  #lia-body .lia-content .hp-bn-m-nav .category{
+    bottom: 48px;
   }
 }

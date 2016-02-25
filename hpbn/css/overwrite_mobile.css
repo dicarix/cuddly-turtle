@@ -143,6 +143,15 @@
       border-bottom: 1px solid #bbb; }
     .hp-bn-m-social-icons .at-share-btn {
       margin-right: 12px !important;
-      display: inline-flex !important; } }
+      display: inline-flex !important; }
+
+  #lia-body .lia-content .hp-bn-m-nav .category .btn-container {
+    padding-bottom: 10px; }
+
+  #lia-body .lia-content .hp-bn-m-menu-dropdown {
+    height: inherit; }
+
+  #lia-body .lia-content .hp-bn-m-nav .category {
+    bottom: 48px; } }
 
 /*# sourceMappingURL=overwrite_mobile.css.map */
