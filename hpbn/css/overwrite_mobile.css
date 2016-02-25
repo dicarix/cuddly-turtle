@@ -27,7 +27,7 @@
     line-height: 19px;
     margin-bottom: 7px; }
 #lia-body .lia-content .lia-quilt-column-main-content {
-  padding-top: 125px; }
+  padding-top: 140px; }
   #lia-body .lia-content .lia-quilt-column-main-content p {
     font-family: "HPSimplified_Lt";
     color: #333333;
@@ -125,16 +125,17 @@
   .hp-bn-m-social-icons {
     text-align: center;
     position: fixed;
-    top: 0;
+    top: 5px;
     width: 100%;
     margin-left: -15px;
     background: #fff;
-    height: 130px; }
+    height: 140px; }
     .hp-bn-m-social-icons .hp-bn-m-social-icons-container {
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 37px; }
+      height: 45px;
+      border-bottom: 1px solid #bbb; }
     .hp-bn-m-social-icons .at-share-btn {
       margin-right: 12px !important;
       display: inline-flex !important; } }
