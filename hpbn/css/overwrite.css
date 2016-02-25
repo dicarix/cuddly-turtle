@@ -209,30 +209,34 @@ body#lia-body .lia-content {
   -ms-transform: translate3d(0, -3px, 0);
   -webkit-transform: translate3d(0, -3px, 0);
   transform: translate3d(0, -3px, 0); }
-#lia-body .lia-content .hp-bn-m-card.homepage {
-  margin: 0 auto;
-  margin-bottom: 25px;
-  width: 300px; }
-  #lia-body .lia-content .hp-bn-m-card.homepage img {
-    height: 204px; }
-  #lia-body .lia-content .hp-bn-m-card.homepage .text_container {
-    padding: 24px 10px;
-    padding-bottom: 0; }
-  #lia-body .lia-content .hp-bn-m-card.homepage .recommended-text p {
-    margin: 0; }
-  #lia-body .lia-content .hp-bn-m-card.homepage .text_container h1 {
+#lia-body .lia-content .hp-bn-m-card img {
+  height: 204px; }
+#lia-body .lia-content .hp-bn-m-card .text_container {
+  padding: 24px 10px;
+  padding-bottom: 0; }
+  #lia-body .lia-content .hp-bn-m-card .text_container h1 {
     font-family: "HPSimplified_Lt";
     font-size: 24px;
     font-size: 2.4rem;
     padding-bottom: 15px;
-    line-height: 27px; }
-    #lia-body .lia-content .hp-bn-m-card.homepage .text_container h1 a {
+    line-height: 28px; }
+    #lia-body .lia-content .hp-bn-m-card .text_container h1 a {
       color: inherit; }
-  #lia-body .lia-content .hp-bn-m-card.homepage .text_container p {
+  #lia-body .lia-content .hp-bn-m-card .text_container p {
+    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 24px;
     margin-bottom: 25px; }
-  #lia-body .lia-content .hp-bn-m-card.homepage p.readTime {
+  #lia-body .lia-content .hp-bn-m-card .text_container p.readTime {
+    font-size: 14px;
+    font-size: 1.4rem;
     margin-bottom: 6px; }
+#lia-body .lia-content .hp-bn-m-card.homepage {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 300px; }
+  #lia-body .lia-content .hp-bn-m-card.homepage .recommended-text p {
+    margin: 0; }
 #lia-body .lia-content .hp-bn-m-card.aside {
   top: 75vh;
   right: 0;
