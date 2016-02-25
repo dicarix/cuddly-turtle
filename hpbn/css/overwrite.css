@@ -192,6 +192,10 @@ p.teaser::first-letter {
   line-height: 26px; }
   #lia-body .lia-content .hp-bn-m-related-articles h3 a {
     color: inherit; }
+#lia-body .lia-content .hp-bn-m-card:hover {
+  box-shadow: -2px 0 2px 0 rgba(0, 0, 0, 0.16), 2px 0 2px 0 rgba(0, 0, 0, 0.16), 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  -webkit-transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0); }
 #lia-body .lia-content .hp-bn-m-card.homepage {
   margin: 0 auto;
   margin-bottom: 25px;
