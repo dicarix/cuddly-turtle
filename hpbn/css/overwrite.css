@@ -127,7 +127,7 @@ body#lia-body .lia-content {
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 36px; }
-  #lia-body .lia-content .lia-quilt-column-Main-article p.author, #lia-body .lia-content .lia-quilt-column-Main-article p.subheader {
+  #lia-body .lia-content .lia-quilt-column-Main-article p.author {
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 40px; }
