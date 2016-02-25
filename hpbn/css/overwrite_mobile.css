@@ -115,6 +115,9 @@
   padding-left: 15px;
   padding-right: 15px; }
 
+#lia-body .lia-content #mobileMessageSearch .lia-quilt-column-main-content {
+  padding-top: 90px; }
+
 @media screen and (max-width: 767px) {
   .hp-bn-m-card {
     margin-bottom: 15px; }
