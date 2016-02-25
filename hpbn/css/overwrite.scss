@@ -388,12 +388,13 @@ body#lia-body .lia-content{
 				left: 23px;
 			}
 			&.read_more{
-				color:#333;
+				color: #333;
 				text-transform: uppercase;
-				font-size: 16px;
-				font-size: 1.6rem;
+				font-size: 14px;
+				font-size: 1.4rem;
 				position: absolute;
-				right: 23px;	
+				right: 23px;
+				top: 6px;	
 				i{
 					top: -1px;
 					position: relative;
