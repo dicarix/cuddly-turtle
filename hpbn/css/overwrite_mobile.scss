@@ -158,6 +158,12 @@ $default-color :         #0096D6;
 @media screen and (max-width: 767px){
   .hp-bn-m-card{
     margin-bottom: 15px;
+    &.aside{
+      position: static;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 100%;
+    }
   }
   .hp-bn-m-related-articles ul{
     display: block;
