@@ -163,7 +163,7 @@ $default-color :         #0096D6;
 }
 
 @media screen and (max-width: 767px){
-  .hp-bn-m-card{
+  #lia-body .lia-content .hp-bn-m-card{
     margin-bottom: 15px;
     &.aside{
       position: static;

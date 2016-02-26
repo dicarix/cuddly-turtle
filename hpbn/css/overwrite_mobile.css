@@ -122,9 +122,9 @@
   padding-top: 90px; }
 
 @media screen and (max-width: 767px) {
-  .hp-bn-m-card {
+  #lia-body .lia-content .hp-bn-m-card {
     margin-bottom: 15px; }
-    .hp-bn-m-card.aside {
+    #lia-body .lia-content .hp-bn-m-card.aside {
       position: static;
       margin: 0 auto;
       margin-top: 10px;
