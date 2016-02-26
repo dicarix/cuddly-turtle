@@ -356,6 +356,9 @@ body#lia-body .lia-content{
 		}
 		&.recommended{
 			padding-bottom: 10px;
+			img{
+				max-width:296px;
+			}
 		}
 	}
 	.hp-bn-readMore{

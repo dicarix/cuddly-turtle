@@ -252,6 +252,8 @@ body#lia-body .lia-content {
   width: 210px; }
 #lia-body .lia-content .hp-bn-m-card.recommended {
   padding-bottom: 10px; }
+  #lia-body .lia-content .hp-bn-m-card.recommended img {
+    max-width: 296px; }
 #lia-body .lia-content .hp-bn-readMore {
   text-align: center;
   border-radius: 2px;
