@@ -300,7 +300,6 @@ body#lia-body .lia-content{
 	}
 	.hp-bn-m-card{
 		&:hover{
-			box-shadow: 0 5px 5px rgba(0, 0, 0, 0.16);
 			@include transform(translate3d(0,-3px,0));
 		}
 		img{
