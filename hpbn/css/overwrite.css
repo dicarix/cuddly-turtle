@@ -201,14 +201,8 @@ body#lia-body .lia-content {
   line-height: 26px; }
   #lia-body .lia-content .hp-bn-m-related-articles h3 a {
     color: inherit; }
-#lia-body .lia-content .hp-bn-m-card:hover {
-  -moz-transform: translate3d(0, -3px, 0);
-  -o-transform: translate3d(0, -3px, 0);
-  -ms-transform: translate3d(0, -3px, 0);
-  -webkit-transform: translate3d(0, -3px, 0);
-  transform: translate3d(0, -3px, 0); }
-  #lia-body .lia-content .hp-bn-m-card:hover h1 {
-    text-decoration: underline; }
+#lia-body .lia-content .hp-bn-m-card:hover h1 {
+  text-decoration: underline; }
 #lia-body .lia-content .hp-bn-m-card img {
   height: 204px; }
 #lia-body .lia-content .hp-bn-m-card .text_container {
